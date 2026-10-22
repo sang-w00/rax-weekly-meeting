@@ -8,14 +8,14 @@ offline. No installation or local server is required. To move the presentation,
 extract the complete ZIP and open its index.html.
 
 CONTENTS
-31 main slides with a suggested total speaking time of 30 minutes, followed by
+30 main slides with a suggested speaking time of about 30 minutes (29:10), followed by
 4 technical backup slides. Speaker notes contain explanations, timing, and
 evaluation conditions. Step-by-step builds let one slide support several points.
 A one-slide summary and the original Figure 1 scaling curve follow the cover.
 The four backup slides cover robot interfaces, common agent instructions,
 parallel exploration, and the humanoid action-demonstration ablation.
 
-Suggested pacing: opening and background 5:05; method 7:20;
+Suggested pacing: opening and background 4:15; method 7:20;
 evaluation 7:00; mechanisms 4:30; reuse and adaptation 4:05;
 discussion 2:00. Concise speaking cues precede optional technical detail.
 
@@ -35,14 +35,14 @@ task conditions are retained in presenter notes:
   footage rather than RAX evaluation rollouts.
 - LIBERO: paper images show the changed layout and resulting program repair.
 
-Official Method animation (slide 9): select a stage, play/pause, or replay.
+Official Method animation (slide 8): select a stage, play/pause, or replay.
 The next slide step switches to the architecture figure.
-Automatic 3D animation (slide 11): the model rotates while the drawer opens and
+Automatic 3D animation (slide 10): the model rotates while the drawer opens and
 closes. There are no controls. The next step shows the geometry estimators.
 These modules pause when hidden. After interacting inside a module, click the
 slide margin and use the arrow keys to continue the presentation.
 
-The air-fryer (45 seconds, slide 8) and RB-Y1 (1 minute 50 seconds, slide 26)
+The air-fryer (45 seconds, slide 7) and RB-Y1 (1 minute 50 seconds, slide 25)
 videos show complete task segments from the official overview, with no added
 internal cuts or speed changes. Play each once through its final placement or
 closure while narrating. Other short demo cuts retain source speed annotations.
