@@ -4,9 +4,9 @@ An independent English research-paper presentation of RAX by Huang et al.
 
 **[Open the presentation](https://sang-w00.github.io/rax-weekly-meeting/)**
 
-36 main slides paced for about 30 minutes, with 19 technical backup slides.
+31 main slides paced for about 30 minutes, with 24 technical backup slides.
 The site includes paper figures and tables, short official demo excerpts, and
-the project’s interactive Method animation and 3D air-fryer model.
+the project’s interactive Method animation and an automatic 3D air-fryer animation.
 
 Use the arrow keys or Space to navigate. `F` opens full screen, `N` shows
 speaker notes, and `O` opens the slide overview. Videos are muted; native playback

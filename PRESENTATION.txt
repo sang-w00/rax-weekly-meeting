@@ -3,13 +3,13 @@ English weekly-meeting presentation
 
 OPEN
 Open index.html in a current desktop browser. Keep the assets folder beside it.
-The presentation, fonts, videos, Method animation, and interactive 3D model work
+The presentation, fonts, videos, Method animation, and automatic 3D animation work
 offline. No installation or local server is required. To move the presentation,
 extract the complete ZIP and open its index.html.
 
 CONTENTS
-36 main slides with a suggested total speaking time of 30 minutes, followed by
-19 technical backup slides. Speaker notes contain explanations, timing, and
+31 main slides with a suggested total speaking time of 30 minutes, followed by
+24 technical backup slides. Speaker notes contain explanations, timing, and
 evaluation conditions. Step-by-step builds let one slide support several points.
 The cover leads directly into the background. A short paper summary is available
 in the technical backup.
@@ -24,7 +24,9 @@ grasping, failure patterns, layout adaptation, and real-robot implementation.
 Results use tables extracted from the paper; figures and table values are not
 redrawn. Click a figure or table to enlarge it; some open a fuller source figure.
 
-Benchmark results pair numerical evidence with matching visual context:
+Benchmark results appear consecutively, with matching visual context. Detailed
+task introductions are in the technical backup:
+
 - BEHAVIOR: RAX boxing-books replay (3 of 6 books, Q = 0.5 in this example).
 - Humanoid: RAX DoubleDesk action-free example; the main comparison instead
   provides three action demonstrations. Visual demonstrations remain available.
@@ -35,8 +37,8 @@ Benchmark results pair numerical evidence with matching visual context:
 
 Official Method animation (slide 8): select a stage, play/pause, or replay.
 The next slide step switches to the architecture figure.
-Interactive 3D model (slide 10): drag to orbit, scroll to zoom, adjust the drawer
-slider, and toggle the model layers. The next step shows the geometry estimators.
+Automatic 3D animation (slide 10): the model rotates while the drawer opens and
+closes. There are no controls. The next step shows the geometry estimators.
 These modules pause when hidden. After interacting inside a module, click the
 slide margin and use the arrow keys to continue the presentation.
 

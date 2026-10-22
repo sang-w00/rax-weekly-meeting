@@ -1,8 +1,9 @@
 {
-  "title": "Original RAX project articulated air-fryer viewer, packaged for offline presentation",
+  "title": "Original RAX articulated model and point clouds, adapted as an automatic offline animation",
   "project_url": "https://robot-agent-exploration.com/#cases",
   "section": "3D model built by the agent",
   "retrieved_date": "2026-10-22",
+  "updated_date": "2026-10-23",
   "output": "assets/project-demo/fryer.html",
   "resources": [
     {
@@ -19,51 +20,127 @@
       "file": "three.module.js",
       "origin_url": "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js",
       "sha256": "76dea8151bc9352aef3528b4262e249b2604f62543828328db978d060d61a495"
-    },
-    {
-      "file": "OrbitControls.js",
-      "origin_url": "https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/controls/OrbitControls.js",
-      "sha256": "5a44a9e86a2a0fb11933eed69bc2cd33c76a496854c1aed6ed776efa87d7b064"
     }
   ],
   "original_data_preserved": true,
-  "geometry_or_model_changes": "None. Original point clouds, measured model parameters, fitted rim, action poses, camera setup and interpolation logic retained.",
+  "geometry_or_model_changes": "None. Original recorded point clouds, measured model parameters, fitted rim, action poses and initial camera viewpoint retained.",
   "packaging_changes": [
-    "Convert ES module transport into isolated classic-script bundles for file://",
-    "Embed original JSON instead of fetch",
-    "White slide-sized layout; Source Sans 3 font embedded",
-    "Retain drawer slider, point-cloud/model/pose toggles, orbit, zoom and original first-view opening animation",
-    "Add reset-view/auto-rotate buttons and a presentation pause/resume API",
-    "Any slider input cancels the introductory opening animation immediately, including keyboard/programmatic input."
+    "Convert ES module transport into isolated classic scripts and embed JSON for file://",
+    "Remove the complete slider/checkbox/button sidebar and drag hint; no manual orbit or zoom controller is bundled",
+    "Use a full-width white canvas with original point-cloud/model/action labels",
+    "Replace the one-shot opening with a smooth repeating 14-second cycle: 2 seconds closed, 4 seconds opening, 4 seconds open, 4 seconds closing",
+    "Use a gentle automatic camera orbit of +/-0.18 radians around the initial view over 42 seconds",
+    "Advance drawer and camera from the same active-time clock; hidden slides freeze and resume without wall-time jumps",
+    "Reduced-motion preference shows a static open model with planned hand poses"
   ],
-  "measurement_note": "The model drawer slides continuously; point clouds switch between the original recorded closed/open observations at the same threshold used on the official site. Planned poses appear near the measured maximum opening.",
+  "animation": {
+    "cycle_ms": 14000,
+    "closed_hold_ms": 2000,
+    "opening_ms": 4000,
+    "open_hold_ms": 4000,
+    "closing_ms": 4000,
+    "maximum_opening_mm": 130.5937966477589,
+    "rounded_opening_mm": 131,
+    "camera_orbit_period_ms": 42000,
+    "camera_orbit_amplitude_radians": 0.18
+  },
+  "measurement_note": "The measured opening is approximately131mm (13.1cm); the exact original value is retained. The drawer model moves continuously, while point clouds switch between two recorded closed/open scans at the original threshold. Planned poses appear near the measured maximum opening.",
   "license_status": {
-    "three_js_and_OrbitControls": "MIT, verified from three@0.160.0/LICENSE; included in THREE-LICENSE.txt and HTML comment",
-    "source_fonts": "SIL Open Font License 1.1; parent package includes original licenses under assets/fonts/",
+    "three_js": "MIT, verified from three@0.160.0/LICENSE; included in THREE-LICENSE.txt and the HTML comment",
+    "source_fonts": "SIL Open Font License 1.1; included in the HTML comment and parent package licenses",
     "RAX_viewer_and_data": "No explicit viewer/data license was found in the downloaded scripts or project page. Original attribution and source URLs are retained here; no broader license is asserted."
   },
   "api": {
     "object": "window.__FRYER_VIEWER",
     "methods": [
-      "setOpening(mm)",
-      "resetView()",
-      "setAutoRotate(boolean)",
       "pause()",
       "resume()"
     ],
-    "postMessage": "{type:\"rax-demo\",action:\"pause\"|\"resume\"|\"reset\"} from parent",
-    "visibility_message": "{type:\"rax-slide-visibility\", visible:boolean}"
+    "postMessage": "{type:\"rax-slide-visibility\",visible:boolean} from parent; also accepts {type:\"rax-demo\",action:\"pause\"|\"resume\"}"
   },
   "verification": {
-    "browser": "Chromium, offline file://, both standalone and parent iframe",
-    "checks_passed": 18,
+    "browser": "Chromium, offline file://, parent iframe and reduced-motion context",
+    "checks_passed": 19,
     "runtime_errors": 0,
     "remote_requests": 0,
-    "early_input": "Slider set approximately 655 ms after load; held 131 mm after 1200 ms across the introductory animation window.",
-    "parent_visibility": "False stops rendered-frame counter and camera movement; true resumes rendering.",
-    "evidence": [
-      "work/project-animation/verification.json",
-      "work/project-animation/early-input-verification.json"
+    "cycle_test": "Actual state machine exercised with accelerated requestAnimationFrame timestamps; no seek or animation API changes",
+    "checks": [
+      {
+        "name": "No controls or sidebar in DOM",
+        "pass": true
+      },
+      {
+        "name": "Canvas uses the full iframe",
+        "pass": true
+      },
+      {
+        "name": "Original point clouds retained",
+        "pass": true
+      },
+      {
+        "name": "Cycle duration is 14 active seconds",
+        "pass": true
+      },
+      {
+        "name": "Drawer opens automatically",
+        "pass": true
+      },
+      {
+        "name": "Camera orbits automatically",
+        "pass": true
+      },
+      {
+        "name": "Hidden animation freezes drawer and active clock",
+        "pass": true
+      },
+      {
+        "name": "Hidden animation freezes camera and rendering",
+        "pass": true
+      },
+      {
+        "name": "Manual orbit and zoom are disabled",
+        "pass": true
+      },
+      {
+        "name": "Resume does not incorporate the hidden interval",
+        "pass": true
+      },
+      {
+        "name": "Open hold exposes planned poses",
+        "pass": true
+      },
+      {
+        "name": "Generic drawer label yields to action labels",
+        "pass": true
+      },
+      {
+        "name": "Drawer closes automatically",
+        "pass": true
+      },
+      {
+        "name": "Cycle returns to a closed hold",
+        "pass": true
+      },
+      {
+        "name": "Drawer label returns outside action-pose phase",
+        "pass": true
+      },
+      {
+        "name": "Opening repeats in the next cycle",
+        "pass": true
+      },
+      {
+        "name": "Reduced motion shows a static open model",
+        "pass": true
+      },
+      {
+        "name": "Reduced motion does not animate",
+        "pass": true
+      },
+      {
+        "name": "No remote resources or runtime errors",
+        "pass": true
+      }
     ]
   }
 }
