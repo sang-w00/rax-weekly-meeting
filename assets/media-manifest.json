@@ -1,0 +1,276 @@
+{
+  "captured_date": "2026-10-22",
+  "project_url": "https://robot-agent-exploration.com/",
+  "paper_url": "https://arxiv.org/abs/2610.22496",
+  "paper_version": "v1",
+  "rights_note": "Educational research presentation using authentic media from the authors' official project and official arXiv paper. Credit the authors and sources during the presentation. No rights beyond the original source licenses are claimed.",
+  "verification": "All 55 slides rendered without broken media or overflow. 32 integrated offline interaction checks passed, with no remote requests or runtime errors. Both official interactive modules validated independently.",
+  "assets": [
+    {
+      "file": "assets/expanded/hanoi-failed-pinch.mp4",
+      "origin_url": "https://robot-agent-exploration.com/assets/vid/hanoi/hanoi_s03.mp4",
+      "subject": "DexJoCo Tower of Hanoi",
+      "caption_en": "Episode 2: an off-center pinch lets the disk swing and drop.",
+      "caveat": "Official project excerpt. Treat as accelerated or edited qualitative footage, not real-time performance or a success-rate estimate.",
+      "bytes": 61133,
+      "sha256": "995a9367c684963630148738471d27b4fd2514feec630a6601d9ebf8508651cd",
+      "duration_seconds": 4.75,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 640,
+          "height": 360,
+          "r_frame_rate": "20/1"
+        }
+      ],
+      "type": "video/mp4"
+    },
+    {
+      "file": "assets/expanded/hanoi-failed-pinch.jpg",
+      "origin_url": "https://robot-agent-exploration.com/assets/vid/hanoi/hanoi_s03.jpg",
+      "subject": "DexJoCo Tower of Hanoi",
+      "caption_en": "Episode 2: an off-center pinch lets the disk swing and drop.",
+      "caveat": "Official project excerpt. Treat as accelerated or edited qualitative footage, not real-time performance or a success-rate estimate.",
+      "bytes": 21383,
+      "sha256": "53757c33d50cf34487cbc0bc792b62c2a07cf2f092ee3458eb21302f84c6324f",
+      "width": 640,
+      "height": 360,
+      "type": "image/jpeg"
+    },
+    {
+      "file": "assets/expanded/hanoi-program-success.mp4",
+      "origin_url": "https://robot-agent-exploration.com/assets/vid/hanoi/hanoi_s06.mp4",
+      "subject": "DexJoCo Tower of Hanoi",
+      "caption_en": "Episode 6: the first autonomous program runs succeed after earlier grasp revisions.",
+      "caveat": "Official project excerpt. Treat as accelerated or edited qualitative footage, not real-time performance or a success-rate estimate.",
+      "bytes": 130845,
+      "sha256": "fc5c4e3199f7897d641faa6b8a2e1048985f1100724caa2daa68a38bd6a4569b",
+      "duration_seconds": 4.8,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 640,
+          "height": 360,
+          "r_frame_rate": "20/1"
+        }
+      ],
+      "type": "video/mp4"
+    },
+    {
+      "file": "assets/expanded/hanoi-program-success.jpg",
+      "origin_url": "https://robot-agent-exploration.com/assets/vid/hanoi/hanoi_s06.jpg",
+      "subject": "DexJoCo Tower of Hanoi",
+      "caption_en": "Episode 6: the first autonomous program runs succeed after earlier grasp revisions.",
+      "caveat": "Official project excerpt. Treat as accelerated or edited qualitative footage, not real-time performance or a success-rate estimate.",
+      "bytes": 13395,
+      "sha256": "845604521ca62bc1228eeb2d4855257a9b2bf035bf04864f93607e7ee2982646",
+      "width": 640,
+      "height": 360,
+      "type": "image/jpeg"
+    },
+    {
+      "file": "assets/expanded/humanoid-walking.jpg",
+      "origin_url": "https://robot-agent-exploration.com/assets/vid/doubledesk/doubledesk_s01.jpg",
+      "subject": "HumanoidArena DoubleDesk",
+      "caption_en": "Unitree G1 explores walking from leg geometry in an action-free-demonstration session.",
+      "caveat": "Official project excerpt. Treat as accelerated or edited qualitative footage, not real-time performance or a success-rate estimate.",
+      "bytes": 12916,
+      "sha256": "dc1fac59712d0c907fe924d4726fd99632cf19391fd6b2e08cd16bb03953c4b4",
+      "width": 640,
+      "height": 360,
+      "type": "image/jpeg"
+    },
+    {
+      "file": "assets/expanded/boxing-perception.mp4",
+      "origin_url": "https://robot-agent-exploration.com/assets/vid/boxing/detect.mp4",
+      "subject": "BEHAVIOR-1K Boxing books",
+      "caption_en": "The program detects books, the box, and shelf cubbies in public test instance 305.",
+      "caveat": "Official project excerpt. Treat as accelerated or edited qualitative footage, not real-time performance or a success-rate estimate.",
+      "bytes": 128017,
+      "sha256": "8bfe45ec4aea725c8fecd07de0b6b84ab9a3295c3fff9e7c0677f961575789d6",
+      "duration_seconds": 4.05,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 640,
+          "height": 360,
+          "r_frame_rate": "20/1"
+        }
+      ],
+      "type": "video/mp4"
+    },
+    {
+      "file": "assets/expanded/boxing-perception.jpg",
+      "origin_url": "https://robot-agent-exploration.com/assets/vid/boxing/detect.jpg",
+      "subject": "BEHAVIOR-1K Boxing books",
+      "caption_en": "The program detects books, the box, and shelf cubbies in public test instance 305.",
+      "caveat": "Official project excerpt. Treat as accelerated or edited qualitative footage, not real-time performance or a success-rate estimate.",
+      "bytes": 31227,
+      "sha256": "59d50510b98e196e2ec275d6dd8f1d34881dc4e7461274a6426e27c159ef106a",
+      "width": 640,
+      "height": 360,
+      "type": "image/jpeg"
+    },
+    {
+      "file": "assets/expanded/boxing-grasp.mp4",
+      "origin_url": "https://robot-agent-exploration.com/assets/vid/boxing/grasp.mp4",
+      "subject": "BEHAVIOR-1K Boxing books",
+      "caption_en": "The program aligns with a book and grasps it.",
+      "caveat": "Official project excerpt. Treat as accelerated or edited qualitative footage, not real-time performance or a success-rate estimate.",
+      "bytes": 120854,
+      "sha256": "234b534fc19e8deabcef3044e7d7f2ff3a63401a8d0ebfe33198aff1739f5c1a",
+      "duration_seconds": 3.6,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 640,
+          "height": 360,
+          "r_frame_rate": "20/1"
+        }
+      ],
+      "type": "video/mp4"
+    },
+    {
+      "file": "assets/expanded/boxing-grasp.jpg",
+      "origin_url": "https://robot-agent-exploration.com/assets/vid/boxing/grasp.jpg",
+      "subject": "BEHAVIOR-1K Boxing books",
+      "caption_en": "The program aligns with a book and grasps it.",
+      "caveat": "Official project excerpt. Treat as accelerated or edited qualitative footage, not real-time performance or a success-rate estimate.",
+      "bytes": 31282,
+      "sha256": "5ccc225d67b6c392079eef7cf1d36b00f5fd23f808e986660a34a1da31b2c012",
+      "width": 640,
+      "height": 360,
+      "type": "image/jpeg"
+    },
+    {
+      "file": "assets/expanded/boxing-release.mp4",
+      "origin_url": "https://robot-agent-exploration.com/assets/vid/boxing/release.mp4",
+      "subject": "BEHAVIOR-1K Boxing books",
+      "caption_en": "The program releases a book into the box.",
+      "caveat": "Official project excerpt. Treat as accelerated or edited qualitative footage, not real-time performance or a success-rate estimate.",
+      "bytes": 86089,
+      "sha256": "2161cc580dae1e6ce26c5042a84ba4e556fa52fca9bfbf3893cdff400978c9d9",
+      "duration_seconds": 3.6,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 640,
+          "height": 360,
+          "r_frame_rate": "20/1"
+        }
+      ],
+      "type": "video/mp4"
+    },
+    {
+      "file": "assets/expanded/boxing-release.jpg",
+      "origin_url": "https://robot-agent-exploration.com/assets/vid/boxing/release.jpg",
+      "subject": "BEHAVIOR-1K Boxing books",
+      "caption_en": "The program releases a book into the box.",
+      "caveat": "Official project excerpt. Treat as accelerated or edited qualitative footage, not real-time performance or a success-rate estimate.",
+      "bytes": 36511,
+      "sha256": "b33734abc041e901fa553c2b2872834570308c2fdda2bfa1c21722e1fb11f096",
+      "width": 640,
+      "height": 360,
+      "type": "image/jpeg"
+    },
+    {
+      "file": "assets/expanded/airfryer-early-failure.mp4",
+      "origin_url": "https://robot-agent-exploration.com/assets/vid/sess/airfry_03.mp4",
+      "subject": "Real Franka FR3 air fryer",
+      "caption_en": "An early controller run selects a flipped-elbow posture and hits a camera.",
+      "caveat": "Official project excerpt. Treat as accelerated or edited qualitative footage, not real-time performance or a success-rate estimate.",
+      "bytes": 72021,
+      "sha256": "e99c13e40a4458289cfe3270359442348298cc0a60a6cc81d2a2763115a07393",
+      "duration_seconds": 5.0,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 640,
+          "height": 360,
+          "r_frame_rate": "20/1"
+        }
+      ],
+      "type": "video/mp4"
+    },
+    {
+      "file": "assets/expanded/airfryer-early-failure.jpg",
+      "origin_url": "https://robot-agent-exploration.com/assets/vid/sess/airfry_03.jpg",
+      "subject": "Real Franka FR3 air fryer",
+      "caption_en": "An early controller run selects a flipped-elbow posture and hits a camera.",
+      "caveat": "Official project excerpt. Treat as accelerated or edited qualitative footage, not real-time performance or a success-rate estimate.",
+      "bytes": 16458,
+      "sha256": "726f56d3b36b00d07d1816a980b4d0f221b61d7ea51138ff26f9296fa1b9f0c0",
+      "width": 640,
+      "height": 360,
+      "type": "image/jpeg"
+    },
+    {
+      "file": "assets/expanded/airfryer-unattended.mp4",
+      "origin_url": "https://robot-agent-exploration.com/assets/vid/sess/airfry_05.mp4",
+      "subject": "Real Franka FR3 air fryer",
+      "caption_en": "Later program: open, place banana, close in 171 seconds without intervention.",
+      "caveat": "Official project excerpt. Treat as accelerated or edited qualitative footage, not real-time performance or a success-rate estimate.",
+      "bytes": 68763,
+      "sha256": "b21c2d1ac443110d80ddfb3c161c305d3a662dcc98815a7ae600da6b4733b509",
+      "duration_seconds": 5.0,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 640,
+          "height": 360,
+          "r_frame_rate": "15/1"
+        }
+      ],
+      "type": "video/mp4"
+    },
+    {
+      "file": "assets/expanded/airfryer-unattended.jpg",
+      "origin_url": "https://robot-agent-exploration.com/assets/vid/sess/airfry_05.jpg",
+      "subject": "Real Franka FR3 air fryer",
+      "caption_en": "Later program: open, place banana, close in 171 seconds without intervention.",
+      "caveat": "Official project excerpt. Treat as accelerated or edited qualitative footage, not real-time performance or a success-rate estimate.",
+      "bytes": 8957,
+      "sha256": "2e9f39e027417e54a2a266090f31cf79f66cb357270747e14929ae34128240a9",
+      "width": 640,
+      "height": 360,
+      "type": "image/jpeg"
+    },
+    {
+      "file": "assets/expanded/rby1-embodiment.jpg",
+      "origin_url": "https://assets.robot-agent-exploration.com/static/rax_overview_light_v3.mp4",
+      "subject": "Real Rainbow RB-Y1",
+      "caption_en": "RB-Y1 mobile manipulator during the long-horizon tidy-up session.",
+      "derived": {
+        "operation": "Single unchanged video frame",
+        "timestamp_seconds": 410
+      },
+      "width": 1280,
+      "height": 720,
+      "type": "image/jpeg",
+      "bytes": 139518,
+      "sha256": "e4fd2c53feec8f6b98b3023a3bd91ee107c2910567318be03528852eeff14709",
+      "caveat": "Overview frame includes source annotations; it is not an independent trial or performance estimate."
+    }
+  ],
+  "package_note": "36 main slides plus 19 technical backup slides; 30-minute main-talk timing. Only referenced standalone media is packaged. Interactive module folders and font licenses are preserved in full.",
+  "paper_assets_manifest": "assets/paper/provenance.json",
+  "additional_media_manifest": "assets/expanded/manifest.json",
+  "font_credits": "assets/fonts/CREDITS.txt",
+  "asset_manifests": [
+    "assets/paper/provenance.json",
+    "assets/appendix/provenance.json",
+    "assets/benchmarks/provenance.json",
+    "assets/clips/manifest.json",
+    "assets/expanded/manifest.json",
+    "assets/project-method/provenance.json",
+    "assets/project-demo/provenance.json",
+    "assets/fonts/manifest.json"
+  ]
+}

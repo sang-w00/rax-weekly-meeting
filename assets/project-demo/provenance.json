@@ -1,0 +1,69 @@
+{
+  "title": "Original RAX project articulated air-fryer viewer, packaged for offline presentation",
+  "project_url": "https://robot-agent-exploration.com/#cases",
+  "section": "3D model built by the agent",
+  "retrieved_date": "2026-10-22",
+  "output": "assets/project-demo/fryer.html",
+  "resources": [
+    {
+      "file": "fryer3d.js",
+      "origin_url": "https://robot-agent-exploration.com/assets/js/fryer3d.js",
+      "sha256": "f1994a06fa6fcbb31a032adf5ff7c17cb340a0195510f90c514989516d82ca0e"
+    },
+    {
+      "file": "fryer.json",
+      "origin_url": "https://robot-agent-exploration.com/assets/data/fryer.json",
+      "sha256": "542d370d059ddb06882c20aca0565acea7d34cf07087ef5fdb1f9651f55d603d"
+    },
+    {
+      "file": "three.module.js",
+      "origin_url": "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js",
+      "sha256": "76dea8151bc9352aef3528b4262e249b2604f62543828328db978d060d61a495"
+    },
+    {
+      "file": "OrbitControls.js",
+      "origin_url": "https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/controls/OrbitControls.js",
+      "sha256": "5a44a9e86a2a0fb11933eed69bc2cd33c76a496854c1aed6ed776efa87d7b064"
+    }
+  ],
+  "original_data_preserved": true,
+  "geometry_or_model_changes": "None. Original point clouds, measured model parameters, fitted rim, action poses, camera setup and interpolation logic retained.",
+  "packaging_changes": [
+    "Convert ES module transport into isolated classic-script bundles for file://",
+    "Embed original JSON instead of fetch",
+    "White slide-sized layout; Source Sans 3 font embedded",
+    "Retain drawer slider, point-cloud/model/pose toggles, orbit, zoom and original first-view opening animation",
+    "Add reset-view/auto-rotate buttons and a presentation pause/resume API",
+    "Any slider input cancels the introductory opening animation immediately, including keyboard/programmatic input."
+  ],
+  "measurement_note": "The model drawer slides continuously; point clouds switch between the original recorded closed/open observations at the same threshold used on the official site. Planned poses appear near the measured maximum opening.",
+  "license_status": {
+    "three_js_and_OrbitControls": "MIT, verified from three@0.160.0/LICENSE; included in THREE-LICENSE.txt and HTML comment",
+    "source_fonts": "SIL Open Font License 1.1; parent package includes original licenses under assets/fonts/",
+    "RAX_viewer_and_data": "No explicit viewer/data license was found in the downloaded scripts or project page. Original attribution and source URLs are retained here; no broader license is asserted."
+  },
+  "api": {
+    "object": "window.__FRYER_VIEWER",
+    "methods": [
+      "setOpening(mm)",
+      "resetView()",
+      "setAutoRotate(boolean)",
+      "pause()",
+      "resume()"
+    ],
+    "postMessage": "{type:\"rax-demo\",action:\"pause\"|\"resume\"|\"reset\"} from parent",
+    "visibility_message": "{type:\"rax-slide-visibility\", visible:boolean}"
+  },
+  "verification": {
+    "browser": "Chromium, offline file://, both standalone and parent iframe",
+    "checks_passed": 18,
+    "runtime_errors": 0,
+    "remote_requests": 0,
+    "early_input": "Slider set approximately 655 ms after load; held 131 mm after 1200 ms across the introductory animation window.",
+    "parent_visibility": "False stops rendered-frame counter and camera movement; true resumes rendering.",
+    "evidence": [
+      "work/project-animation/verification.json",
+      "work/project-animation/early-input-verification.json"
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+Embedded presentation typefaces
+
+Source Serif 4
+Designer: Frank Grießhammer
+Foundry: Adobe Originals
+Catalog: https://fonts.adobe.com/fonts/source-serif-4
+Official source: https://github.com/adobe-fonts/source-serif
+Files: Regular and Semibold WOFF2 from the official release branch.
+License: SourceSerif4-LICENSE.md (SIL Open Font License 1.1).
+
+Source Sans 3
+Designer: Paul D. Hunt
+Foundry: Adobe Originals
+Catalog: https://fonts.adobe.com/fonts/source-sans-3
+Official source: https://github.com/adobe-fonts/source-sans
+Files: Regular and Semibold WOFF2 from the official release branch.
+License: SourceSans3-LICENSE.md (SIL Open Font License 1.1).
+
+The font files are included unmodified, with their copyright and license notices.

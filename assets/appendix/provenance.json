@@ -1,0 +1,188 @@
+{
+  "paper": "Scaling Online Exploration for Robot Agents",
+  "version": "v1",
+  "pdf_sha256": "eb4e7cc51311c4064b872e10b51d550bd4aa0cd280599768e5f1a33cc2865934",
+  "reviewed_figures": "13–34, all 22 figures",
+  "assets": [
+    {
+      "figure": 14,
+      "title": "Re-perception under large position shifts",
+      "finding": "Can positions move15/32cm, while wrist-refined estimates remain near1mm median error.",
+      "recommended_use_and_limit": "Main: why layout transfer works. Six failures still occur when the soup is initially occluded.",
+      "source_url": "https://arxiv.org/pdf/2610.22496v1",
+      "pdf_page_1based": 46,
+      "bbox_pdf_points_top_left": [
+        70,
+        86,
+        525,
+        264
+      ],
+      "captioned_bbox_pdf_points_top_left": [
+        68,
+        86,
+        528,
+        370
+      ],
+      "dpi": 300,
+      "dimensions": [
+        1896,
+        742
+      ],
+      "files": [
+        "assets/appendix/fig-14.png"
+      ],
+      "edits": "Crop only; original PDF content, colors, labels, and numbers preserved.",
+      "visual_review": "Source page and extracted crop inspected."
+    },
+    {
+      "figure": 16,
+      "title": "Failure-guided grasp design",
+      "finding": "Four grasp designs fail for distinct geometric reasons; a rolled vertical pinch carries both disks.",
+      "recommended_use_and_limit": "Main: strong exploration mechanism. Successful carry in episode4 was not yet complete task success.",
+      "source_url": "https://arxiv.org/pdf/2610.22496v1",
+      "pdf_page_1based": 48,
+      "bbox_pdf_points_top_left": [
+        70,
+        202,
+        525,
+        336
+      ],
+      "captioned_bbox_pdf_points_top_left": [
+        68,
+        202,
+        528,
+        380
+      ],
+      "dpi": 300,
+      "dimensions": [
+        1896,
+        558
+      ],
+      "files": [
+        "assets/appendix/fig-16.png"
+      ],
+      "edits": "Crop only; original PDF content, colors, labels, and numbers preserved.",
+      "visual_review": "Source page and extracted crop inspected."
+    },
+    {
+      "figure": 20,
+      "title": "Stage-level debugging across program versions",
+      "finding": "The heatmap shows distinct stage failures and final34/60 completed test episodes; grasp remains a bottleneck.",
+      "recommended_use_and_limit": "Main: excellent concrete key finding. Use the stage colors and final column, rather than reading every run.",
+      "source_url": "https://arxiv.org/pdf/2610.22496v1",
+      "pdf_page_1based": 54,
+      "bbox_pdf_points_top_left": [
+        70,
+        100,
+        525,
+        236
+      ],
+      "captioned_bbox_pdf_points_top_left": [
+        68,
+        100,
+        528,
+        282
+      ],
+      "dpi": 300,
+      "dimensions": [
+        1896,
+        566
+      ],
+      "files": [
+        "assets/appendix/fig-20.png"
+      ],
+      "edits": "Crop only; original PDF content, colors, labels, and numbers preserved.",
+      "visual_review": "Source page and extracted crop inspected."
+    },
+    {
+      "figure": 26,
+      "title": "Agent-written geometric estimators",
+      "finding": "Circle fitting, handle profile, banana centerline, and post-opening rim fit show the actual numerical perception modules.",
+      "recommended_use_and_limit": "Main: deepens method beyond a generic world-model claim. Model dimensions partly stay fixed from early measurements.",
+      "source_url": "https://arxiv.org/pdf/2610.22496v1",
+      "pdf_page_1based": 66,
+      "bbox_pdf_points_top_left": [
+        70,
+        370,
+        525,
+        470
+      ],
+      "captioned_bbox_pdf_points_top_left": [
+        68,
+        370,
+        528,
+        574
+      ],
+      "dpi": 300,
+      "dimensions": [
+        1896,
+        416
+      ],
+      "files": [
+        "assets/appendix/fig-26.png"
+      ],
+      "edits": "Crop only; original PDF content, colors, labels, and numbers preserved.",
+      "visual_review": "Source page and extracted crop inspected."
+    },
+    {
+      "figure": 30,
+      "title": "Wiping with multi-scale verification",
+      "finding": "Exterior and wrist views detect different residue scales; policy repeats a wipe when checks fail.",
+      "recommended_use_and_limit": "Main: strong finding about outcome verification and sensing, with a concrete false-clean correction.",
+      "source_url": "https://arxiv.org/pdf/2610.22496v1",
+      "pdf_page_1based": 70,
+      "bbox_pdf_points_top_left": [
+        73,
+        193,
+        524,
+        596
+      ],
+      "captioned_bbox_pdf_points_top_left": [
+        68,
+        193,
+        528,
+        652
+      ],
+      "dpi": 300,
+      "dimensions": [
+        1879,
+        1679
+      ],
+      "files": [
+        "assets/appendix/fig-30.png"
+      ],
+      "edits": "Crop only; original PDF content, colors, labels, and numbers preserved.",
+      "visual_review": "Source page and extracted crop inspected."
+    },
+    {
+      "figure": 32,
+      "title": "CAD registration, contact search, and tilted entry",
+      "finding": "The procedure combines wrist-image edges, board/peg CAD, force probing, corner entry, and small pushes.",
+      "recommended_use_and_limit": "Main: best precision-method detail. Preserve that CAD and operator advice were provided.",
+      "source_url": "https://arxiv.org/pdf/2610.22496v1",
+      "pdf_page_1based": 73,
+      "bbox_pdf_points_top_left": [
+        73,
+        177,
+        524,
+        623
+      ],
+      "captioned_bbox_pdf_points_top_left": [
+        68,
+        177,
+        528,
+        669
+      ],
+      "dpi": 300,
+      "dimensions": [
+        1879,
+        1858
+      ],
+      "files": [
+        "assets/appendix/fig-32.png"
+      ],
+      "edits": "Crop only; original PDF content, colors, labels, and numbers preserved.",
+      "visual_review": "Source page and extracted crop inspected."
+    }
+  ]
+}

@@ -1,0 +1,364 @@
+{
+  "project_url": "https://robot-agent-exploration.com/",
+  "created_date": "2026-10-22",
+  "editing_policy": "Only chronological source excerpts are concatenated. No generative imagery or temporal speed-up added. Audio omitted for presentation. Official source footage is already accelerated/edited.",
+  "assets": [
+    {
+      "file": "assets/clips/behavior-boxing20.mp4",
+      "poster": "assets/clips/behavior-boxing20.jpg",
+      "subject": "BEHAVIOR-1K boxing books",
+      "condition": "RAX fully automated program replay on public test instance 305. This replay packs 3 of 6 books, with Q-score 0.5.",
+      "duration_seconds": 18.75,
+      "width": 640,
+      "height": 360,
+      "codec": "h264",
+      "frame_rate": "20/1",
+      "bytes": 843140,
+      "sha256": "effbfe534301d6d829ce3401f807d43ec7a24f59a503b53075c29fffa6b75d85",
+      "poster_timestamp_seconds": 8.2,
+      "caveat": "This is edited/accelerated qualitative footage. Playback length is not task execution time or a success-rate estimate.",
+      "source_segments": [
+        {
+          "url": "https://robot-agent-exploration.com/assets/vid/boxing/detect.mp4",
+          "source_range_seconds": [
+            0,
+            4.05
+          ],
+          "stage": "Detect books, the box and shelf cubbies",
+          "description": "Every head-camera frame is lifted to 3D points. Flat, textured patches at the two shelf heights are books, white floors of the cubbies are shelf cubbies, and a white tray on the floor is the box."
+        },
+        {
+          "url": "https://robot-agent-exploration.com/assets/vid/boxing/astar.mp4",
+          "source_range_seconds": [
+            0,
+            3.52
+          ],
+          "stage": "Plan with A*",
+          "description": "Before any book is seen it drives toward a frontier of the map. A* searches the grid with a robot-width margin around obstacles: 995 cells expanded for a 4.64 m path."
+        },
+        {
+          "url": "https://robot-agent-exploration.com/assets/vid/boxing/grasp.mp4",
+          "source_range_seconds": [
+            0,
+            3.6
+          ],
+          "stage": "Align with a book and grasp it",
+          "description": "It picks the nearest remembered book, drives to a standoff in front of its cubby, servos on the cover’s front edge, and closes the gripper."
+        },
+        {
+          "url": "https://robot-agent-exploration.com/assets/vid/boxing/carry.mp4",
+          "source_range_seconds": [
+            0,
+            4.0
+          ],
+          "stage": "Carry it and centre it over the box",
+          "description": "It drives the book over to the box. There it fits a plane to the held cover in head and wrist depth and moves until the cover is centred: 21 cm off at the first fit, then 4 cm, inside its 4.5 cm tolerance."
+        },
+        {
+          "url": "https://robot-agent-exploration.com/assets/vid/boxing/release.mp4",
+          "source_range_seconds": [
+            0,
+            3.6
+          ],
+          "stage": "Release it into the box",
+          "description": "It lowers the book above the rim and opens the gripper. On this test instance the program packs 3 of the 6 books, a Q-score of 0.5."
+        }
+      ],
+      "source_description_url": "https://robot-agent-exploration.com/assets/js/boxing.js",
+      "origin_url": "https://robot-agent-exploration.com/assets/js/boxing.js",
+      "origin_urls": [
+        "https://robot-agent-exploration.com/assets/vid/boxing/detect.mp4",
+        "https://robot-agent-exploration.com/assets/vid/boxing/astar.mp4",
+        "https://robot-agent-exploration.com/assets/vid/boxing/grasp.mp4",
+        "https://robot-agent-exploration.com/assets/vid/boxing/carry.mp4",
+        "https://robot-agent-exploration.com/assets/vid/boxing/release.mp4"
+      ],
+      "type": "video/mp4"
+    },
+    {
+      "file": "assets/clips/dexjoco-hanoi20.mp4",
+      "poster": "assets/clips/dexjoco-hanoi20.jpg",
+      "subject": "DexJoCo bimanual Tower of Hanoi",
+      "condition": "RAX submitted program on formal layout 40. The detailed case reports 150 of 150 formal episodes completed; do not equate this case with the fixed 32-episode-budget aggregate.",
+      "duration_seconds": 20.6,
+      "width": 640,
+      "height": 360,
+      "codec": "h264",
+      "frame_rate": "20/1",
+      "bytes": 807882,
+      "sha256": "ad136c6595c58d88c2a66e3649e4ad24c7f4c5a9a601ab1a427f6406245be1f3",
+      "poster_timestamp_seconds": 4.0,
+      "caveat": "This is edited/accelerated qualitative footage. Playback length is not task execution time or a success-rate estimate.",
+      "source_segments": [
+        {
+          "url": "https://robot-agent-exploration.com/assets/vid/hanoi/hanoi_p01.mp4",
+          "source_range_seconds": [
+            0,
+            3.35
+          ],
+          "stage": "Measure the disks and pegs",
+          "description": "From the first egocentric depth image it fits the top face of each coloured disk and finds the pegs from the depth points above them. On this layout the three disk tops are at 1.043 m and the target peg's top 13 cm above them."
+        },
+        {
+          "url": "https://robot-agent-exploration.com/assets/vid/hanoi/hanoi_p02.mp4",
+          "source_range_seconds": [
+            0,
+            4.0
+          ],
+          "stage": "Pinch both disks at once",
+          "description": "Both hands take the rolled vertical pinch: the thumb 6 mm outside the near face, the line from thumb to index through the centre of the disk. The yellow disk stays on its peg until the red one is placed."
+        },
+        {
+          "url": "https://robot-agent-exploration.com/assets/vid/hanoi/hanoi_p05.mp4",
+          "source_range_seconds": [
+            0,
+            5.0
+          ],
+          "stage": "Lower red onto blue",
+          "description": "Lowers the disk to just below the peg tip, checks that it has not caught on the tip, then lowers it onto the blue disk and opens the hand."
+        },
+        {
+          "url": "https://robot-agent-exploration.com/assets/vid/hanoi/hanoi_p07.mp4",
+          "source_range_seconds": [
+            0,
+            4.0
+          ],
+          "stage": "Measure the red top, align yellow",
+          "description": "Measures the top of the placed red disk again, 1.0927 m against 1.0932 m predicted from the blue disk, and uses it as the support for the yellow one. It carries the yellow disk over and aligns it from three cameras, to 4.2 mm in three iterations."
+        },
+        {
+          "url": "https://robot-agent-exploration.com/assets/vid/hanoi/hanoi_p08.mp4",
+          "source_range_seconds": [
+            0,
+            4.25
+          ],
+          "stage": "Lower yellow and release",
+          "description": "Lowers the yellow disk onto the red one and opens the hand. The task completes at step 1064; the whole episode takes 156 s."
+        }
+      ],
+      "source_description_url": "https://robot-agent-exploration.com/assets/js/simcases.js",
+      "origin_url": "https://robot-agent-exploration.com/assets/js/simcases.js",
+      "origin_urls": [
+        "https://robot-agent-exploration.com/assets/vid/hanoi/hanoi_p01.mp4",
+        "https://robot-agent-exploration.com/assets/vid/hanoi/hanoi_p02.mp4",
+        "https://robot-agent-exploration.com/assets/vid/hanoi/hanoi_p05.mp4",
+        "https://robot-agent-exploration.com/assets/vid/hanoi/hanoi_p07.mp4",
+        "https://robot-agent-exploration.com/assets/vid/hanoi/hanoi_p08.mp4"
+      ],
+      "type": "video/mp4"
+    },
+    {
+      "file": "assets/clips/humanoid-doubledesk20.mp4",
+      "poster": "assets/clips/humanoid-doubledesk20.jpg",
+      "subject": "HumanoidArena DoubleDesk",
+      "condition": "RAX DoubleDesk program on formal episode 40, completed at step 1689. Actions were removed from the demonstrations, while visual demonstrations remained. This differs from the main three-action-demonstration setting.",
+      "duration_seconds": 18.1,
+      "width": 640,
+      "height": 360,
+      "codec": "h264",
+      "frame_rate": "20/1",
+      "bytes": 815046,
+      "sha256": "191b644764e10d9f6ff38c945468f953141b4dc01fe0e26d7cbffb8836d67952",
+      "poster_timestamp_seconds": 7.5,
+      "caveat": "This is edited/accelerated qualitative footage. Playback length is not task execution time or a success-rate estimate.",
+      "source_segments": [
+        {
+          "url": "https://robot-agent-exploration.com/assets/vid/doubledesk/doubledesk_p01.mp4",
+          "source_range_seconds": [
+            0,
+            4.2
+          ],
+          "stage": "Walk to the hammer desk",
+          "description": "Walks forward step by step, looking after each step, turns to face the hammer desk, and walks to it, ending with a split step sized by its stop model so the desk edge lands 24 cm in front of the pelvis."
+        },
+        {
+          "url": "https://robot-agent-exploration.com/assets/vid/doubledesk/doubledesk_p03.mp4",
+          "source_range_seconds": [
+            0,
+            3.3
+          ],
+          "stage": "Grip with the thumb past the edge",
+          "description": "Closes the hand around the handle with the fingers over it and the thumb hanging below the desk top past the edge, lifts, and checks the hold. The grasp, with its rake, took 474 steps."
+        },
+        {
+          "url": "https://robot-agent-exploration.com/assets/vid/doubledesk/doubledesk_p04.mp4",
+          "source_range_seconds": [
+            0,
+            3.2
+          ],
+          "stage": "Carry pose while turning",
+          "description": "Moves the arm into the carry pose during the 180° turn toward the basket desk, in one motion instead of two."
+        },
+        {
+          "url": "https://robot-agent-exploration.com/assets/vid/doubledesk/doubledesk_p05.mp4",
+          "source_range_seconds": [
+            0,
+            3.95
+          ],
+          "stage": "Walk to the bar and step over",
+          "description": "Walks to the bar while steering toward the basket, stops just before it, then steps over with a high lead step and a trailing step, re-measuring the bar and the desk from the camera between steps."
+        },
+        {
+          "url": "https://robot-agent-exploration.com/assets/vid/doubledesk/doubledesk_p07.mp4",
+          "source_range_seconds": [
+            0,
+            3.45
+          ],
+          "stage": "Place by the hammer's centre of mass",
+          "description": "Finds the basket, measures where the held hammer's head is relative to the hand, and moves the hand so that the hammer's centre of mass lies inside the basket, then lowers it and opens the hand."
+        }
+      ],
+      "source_description_url": "https://robot-agent-exploration.com/assets/js/simcases.js",
+      "origin_url": "https://robot-agent-exploration.com/assets/js/simcases.js",
+      "origin_urls": [
+        "https://robot-agent-exploration.com/assets/vid/doubledesk/doubledesk_p01.mp4",
+        "https://robot-agent-exploration.com/assets/vid/doubledesk/doubledesk_p03.mp4",
+        "https://robot-agent-exploration.com/assets/vid/doubledesk/doubledesk_p04.mp4",
+        "https://robot-agent-exploration.com/assets/vid/doubledesk/doubledesk_p05.mp4",
+        "https://robot-agent-exploration.com/assets/vid/doubledesk/doubledesk_p07.mp4"
+      ],
+      "type": "video/mp4"
+    },
+    {
+      "file": "assets/clips/airfryer-task25.mp4",
+      "poster": "assets/clips/airfryer-task25.jpg",
+      "subject": "Air-fryer task: open, place, close",
+      "condition": "Selected stages of the official edited real-Franka overview. Qualitative task illustration; original on-screen timing annotations retained.",
+      "duration_seconds": 25.0,
+      "width": 1280,
+      "height": 720,
+      "codec": "h264",
+      "frame_rate": "25/1",
+      "bytes": 3682591,
+      "sha256": "7441d6ce543c90874de3b641de3bba47ddf03dbc6df9e19808f301d288083eb3",
+      "poster_timestamp_seconds": 2.0,
+      "caveat": "This is edited/accelerated qualitative footage. Playback length is not task execution time or a success-rate estimate.",
+      "source_segments": [
+        {
+          "url": "https://assets.robot-agent-exploration.com/static/rax_overview_light_v3.mp4",
+          "source_range_seconds": [
+            132,
+            143
+          ]
+        },
+        {
+          "url": "https://assets.robot-agent-exploration.com/static/rax_overview_light_v3.mp4",
+          "source_range_seconds": [
+            145,
+            153
+          ]
+        },
+        {
+          "url": "https://assets.robot-agent-exploration.com/static/rax_overview_light_v3.mp4",
+          "source_range_seconds": [
+            166,
+            172
+          ]
+        }
+      ],
+      "origin_url": "https://assets.robot-agent-exploration.com/static/rax_overview_light_v3.mp4",
+      "origin_urls": [
+        "https://assets.robot-agent-exploration.com/static/rax_overview_light_v3.mp4"
+      ],
+      "type": "video/mp4"
+    },
+    {
+      "file": "assets/clips/rby1-six-stages18.mp4",
+      "poster": "assets/clips/rby1-six-stages18.jpg",
+      "subject": "RB-Y1 six-stage tidying",
+      "condition": "Six noncontiguous stages of the RB-Y1 long task. The final trial lasted 98 minutes with agent checkpoints and operator support.",
+      "duration_seconds": 18.0,
+      "width": 1280,
+      "height": 720,
+      "codec": "h264",
+      "frame_rate": "25/1",
+      "bytes": 3113505,
+      "sha256": "266269807ce79594f0635527a41e94d0c78e4a4eb728145b94bff0b956283b42",
+      "poster_timestamp_seconds": 7.0,
+      "caveat": "This is edited/accelerated qualitative footage. Playback length is not task execution time or a success-rate estimate.",
+      "source_segments": [
+        {
+          "url": "https://assets.robot-agent-exploration.com/static/rax_overview_light_v3.mp4",
+          "source_range_seconds": [
+            385,
+            388
+          ]
+        },
+        {
+          "url": "https://assets.robot-agent-exploration.com/static/rax_overview_light_v3.mp4",
+          "source_range_seconds": [
+            399,
+            402
+          ]
+        },
+        {
+          "url": "https://assets.robot-agent-exploration.com/static/rax_overview_light_v3.mp4",
+          "source_range_seconds": [
+            419,
+            422
+          ]
+        },
+        {
+          "url": "https://assets.robot-agent-exploration.com/static/rax_overview_light_v3.mp4",
+          "source_range_seconds": [
+            438,
+            441
+          ]
+        },
+        {
+          "url": "https://assets.robot-agent-exploration.com/static/rax_overview_light_v3.mp4",
+          "source_range_seconds": [
+            452,
+            455
+          ]
+        },
+        {
+          "url": "https://assets.robot-agent-exploration.com/static/rax_overview_light_v3.mp4",
+          "source_range_seconds": [
+            465,
+            468
+          ]
+        }
+      ],
+      "origin_url": "https://assets.robot-agent-exploration.com/static/rax_overview_light_v3.mp4",
+      "origin_urls": [
+        "https://assets.robot-agent-exploration.com/static/rax_overview_light_v3.mp4"
+      ],
+      "type": "video/mp4"
+    },
+    {
+      "file": "assets/clips/bandu-final18.mp4",
+      "poster": "assets/clips/bandu-final18.jpg",
+      "subject": "Bandu final assembly",
+      "condition": "Final portions of an unattended seven-piece reconstruction. The entire reconstruction took 663 seconds; this clip is not the complete run.",
+      "duration_seconds": 18.0,
+      "width": 1280,
+      "height": 720,
+      "codec": "h264",
+      "frame_rate": "25/1",
+      "bytes": 1589956,
+      "sha256": "78b3ab7527643ea4498307f91e652286edd7524154656379483b9e816e20391e",
+      "poster_timestamp_seconds": 5.0,
+      "caveat": "This is edited/accelerated qualitative footage. Playback length is not task execution time or a success-rate estimate.",
+      "source_segments": [
+        {
+          "url": "https://assets.robot-agent-exploration.com/static/rax_overview_light_v3.mp4",
+          "source_range_seconds": [
+            324,
+            342
+          ]
+        }
+      ],
+      "origin_url": "https://assets.robot-agent-exploration.com/static/rax_overview_light_v3.mp4",
+      "origin_urls": [
+        "https://assets.robot-agent-exploration.com/static/rax_overview_light_v3.mp4"
+      ],
+      "type": "video/mp4"
+    }
+  ],
+  "verification": "All seven final clips fully decoded with ffmpeg and inspected in timestamped contact sheets. H.264/yuv420p, silent, with posters extracted from the final clips.",
+  "availability_notes": {
+    "RoboDojo": "No RAX execution video was located in the official project scripts, overview, main repository, or public RoboDojo/BEHAVIOR branch. The benchmark-reference demos in assets/benchmarks are task illustrations and must not be labeled RAX rollouts.",
+    "LIBERO-Pro": "No RAX execution video was located in those sources, and the public RAX repository has no LIBERO branch. Use the paper's authentic layout/adaptation panels unless a new source is supplied."
+  }
+}

@@ -1,0 +1,78 @@
+RAX — Scaling Online Exploration for Robot Agents
+English weekly-meeting presentation
+
+OPEN
+Open index.html in a current desktop browser. Keep the assets folder beside it.
+The presentation, fonts, videos, Method animation, and interactive 3D model work
+offline. No installation or local server is required. To move the presentation,
+extract the complete ZIP and open its index.html.
+
+CONTENTS
+36 main slides with a suggested total speaking time of 30 minutes, followed by
+19 technical backup slides. Speaker notes contain explanations, timing, and
+evaluation conditions. Step-by-step builds let one slide support several points.
+The cover leads directly into the background. A short paper summary is available
+in the technical backup.
+
+Suggested pacing: background, problem, and related work 4.5 minutes; method 7 minutes;
+evaluation 9 minutes; mechanisms 4.5 minutes; reuse and adaptation 3 minutes;
+discussion 2 minutes. Concise speaking cues precede optional technical detail.
+
+The paper's main Figures 1–12 are represented through complete figures or
+relevant panels. Selected appendix figures clarify geometry estimation, dexterous
+grasping, failure patterns, layout adaptation, and real-robot implementation.
+Results use tables extracted from the paper; figures and table values are not
+redrawn. Click a figure or table to enlarge it; some open a fuller source figure.
+
+Benchmark results pair numerical evidence with matching visual context:
+- BEHAVIOR: RAX boxing-books replay (3 of 6 books, Q = 0.5 in this example).
+- Humanoid: RAX DoubleDesk action-free example; the main comparison instead
+  provides three action demonstrations. Visual demonstrations remain available.
+- DexJoCo: RAX bimanual Tower of Hanoi execution.
+- RoboDojo: task reference demonstrations, explicitly identified as reference
+  footage rather than RAX evaluation rollouts.
+- LIBERO: paper images show the changed layout and resulting program repair.
+
+Official Method animation (slide 8): select a stage, play/pause, or replay.
+The next slide step switches to the architecture figure.
+Interactive 3D model (slide 10): drag to orbit, scroll to zoom, adjust the drawer
+slider, and toggle the model layers. The next step shows the geometry estimators.
+These modules pause when hidden. After interacting inside a module, click the
+slide margin or use the bottom navigation buttons to continue the presentation.
+
+Short demo cuts retain the source video's timing and speed annotations.
+They are qualitative, often accelerated examples, not real-time execution
+measurements or estimates of benchmark success rates. Playback is silent.
+
+TYPOGRAPHY
+Source Serif 4 Semibold for titles; Source Sans 3 for body text. Labels use normal
+tracking and sentence case. Embedded fonts do not require installation.
+
+CONTROLS
+Right arrow / Space   Next explanation step, then next slide
+Left arrow            Previous step or slide
+Click a table/figure   Enlarge the figure or table
+Escape                Close an enlarged figure or another overlay
+F                     Full screen
+N                     Speaker notes
+O                     Searchable slide overview
+T                     Start / pause timer
+B                     Black screen
+?                     Keyboard shortcut reference
+
+In full screen, the toolbar appears when the pointer reaches the bottom edge.
+Interactive modules and native video controls can capture keyboard focus;
+clicking the slide margin restores slide keyboard navigation.
+
+PRINT
+The browser Print command uses static figures and video posters. Speaker notes
+and navigation controls are excluded. Present the HTML to use animation and 3D.
+
+PROVENANCE
+Paper: https://arxiv.org/abs/2610.22496 (v1, 15 October 2026)
+Project: https://robot-agent-exploration.com/
+The visible slides omit source footers and a sources section. References remain
+in speaker notes and assets/media-manifest.json, which points to detailed
+asset manifests. Module and font licenses are retained alongside their files.
+Figures and footage belong to their respective authors. Explanatory diagrams,
+interpretations, and discussion are presentation synthesis.

@@ -1,0 +1,25 @@
+{
+  "retrieved_date": "2026-10-22",
+  "files": [
+    {
+      "file": "SourceSerif4-Regular.woff2",
+      "origin_url": "https://raw.githubusercontent.com/adobe-fonts/source-serif/release/WOFF2/TTF/SourceSerif4-Regular.ttf.woff2",
+      "sha256": "6b053e98f0838afe81f3e784727be4583a7c13bb42f198dc5202ecffee0aaee0"
+    },
+    {
+      "file": "SourceSerif4-Semibold.woff2",
+      "origin_url": "https://raw.githubusercontent.com/adobe-fonts/source-serif/release/WOFF2/TTF/SourceSerif4-Semibold.ttf.woff2",
+      "sha256": "457a13ac92e977d82e376038a2daac7fdb5433610910bf5787bdf6c1c3781865"
+    },
+    {
+      "file": "SourceSans3-Regular.woff2",
+      "origin_url": "https://raw.githubusercontent.com/adobe-fonts/source-sans/release/WOFF2/TTF/SourceSans3-Regular.ttf.woff2",
+      "sha256": "53492fb3a0def77354f166a55d09b63a10855e91c206c7620a81cf56e97f8ec3"
+    },
+    {
+      "file": "SourceSans3-Semibold.woff2",
+      "origin_url": "https://raw.githubusercontent.com/adobe-fonts/source-sans/release/WOFF2/TTF/SourceSans3-Semibold.ttf.woff2",
+      "sha256": "47b9b661b9f395fe7f0d0e119637fba5c8dad97bde3df60066fd24229c0792f4"
+    }
+  ]
+}

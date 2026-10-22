@@ -1,0 +1,124 @@
+{
+  "project_url": "https://robot-agent-exploration.com/#method",
+  "retrieved_date": "2026-10-22",
+  "description": "Local five-act official Method animation with synchronized camera clips, animated architecture, code feed, and RGB-D-to-model point-cloud animation.",
+  "adaptations": [
+    "Offline classic-script packaging of Three.js and embedded point data",
+    "Only the air-fryer program retained from the code resource",
+    "Presentation fit to 1448x570 with local Source Sans3",
+    "Added replay and explicit parent visibility controls; original act timing and scientific content preserved"
+  ],
+  "license_note": "Three.js is MIT; its license is included. No explicit license for the project website resources was found on the inspected page; attribution is retained here and no broader rights are asserted.",
+  "files": [
+    {
+      "file": "how.js",
+      "origin_url": "https://robot-agent-exploration.com/assets/js/how.js",
+      "sha256": "26297cfb427fc723efe18464b69a545746226dc525156c6ea714b3e28bcbde0b",
+      "bytes": 27824
+    },
+    {
+      "file": "interactive.css",
+      "origin_url": "https://robot-agent-exploration.com/assets/css/interactive.css",
+      "sha256": "12931a1729c471a8e8af59ded5643bee78a5358b448a7a57032ad13c4b1a2639",
+      "bytes": 28820
+    },
+    {
+      "file": "program.js",
+      "origin_url": "https://robot-agent-exploration.com/assets/js/code.js",
+      "sha256": "5b4a4912e06bfe42e3c9a558c9578d503d3eeabe338af7922c9c5006fc1d19f5",
+      "bytes": 2724
+    },
+    {
+      "file": "perceive3d.js",
+      "origin_url": "https://robot-agent-exploration.com/assets/js/perceive3d.js",
+      "sha256": "80647ddaa5b056a1a1a65043b61e037d7b6feba848939c7205970db5a1824731",
+      "bytes": 15367
+    },
+    {
+      "file": "perceive-data.js",
+      "origin_url": "https://robot-agent-exploration.com/assets/data/perceive.json",
+      "sha256": "df06b852b61f3b75c8c6d983da7eae1ebf1d624dd7972c158de5c14a1c8f00d8",
+      "bytes": 1207786
+    },
+    {
+      "file": "three.min.js",
+      "origin_url": "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.min.js",
+      "sha256": "170c6789f43217c96b3170f4b42fafe135de7f7cd48497a4218f9757ee1d49fa",
+      "bytes": 669884
+    },
+    {
+      "file": "THREE-LICENSE.txt",
+      "origin_url": "https://cdn.jsdelivr.net/npm/three@0.160.0/LICENSE",
+      "sha256": "852e0e8699169bf9f6fdc6bda3e682d078dcbc738b5d33e74df594721bff271d",
+      "bytes": 1081
+    },
+    {
+      "file": "assets/vid/how/a1_explore.mp4",
+      "origin_url": "https://robot-agent-exploration.com/assets/vid/how/a1_explore.mp4",
+      "sha256": "41cf1a682536adc77ad917e39adaefb9e234208fda9ac3ae37cf7ac5a2b40e8d",
+      "bytes": 112037
+    },
+    {
+      "file": "assets/vid/how/a4_alone.mp4",
+      "origin_url": "https://robot-agent-exploration.com/assets/vid/how/a4_alone.mp4",
+      "sha256": "70fbd9f044090c9ac71a48eef17421704f82fd2e72a28da90f9a7516b5f06647",
+      "bytes": 156195
+    },
+    {
+      "file": "assets/vid/how/a2_program.mp4",
+      "origin_url": "https://robot-agent-exploration.com/assets/vid/how/a2_program.mp4",
+      "sha256": "8280ef3caae6bace8173a225bd623f1665624d932d5b016d70b19b6526e8a96c",
+      "bytes": 31357
+    },
+    {
+      "file": "assets/vid/how/a3_unsure.mp4",
+      "origin_url": "https://robot-agent-exploration.com/assets/vid/how/a3_unsure.mp4",
+      "sha256": "1f9f32341ed2b5268c0560fe97af3006a881bb347f1bff6768c3ac4f58d61438",
+      "bytes": 51518
+    },
+    {
+      "file": "assets/vid/how/a2_program.jpg",
+      "origin_url": "https://robot-agent-exploration.com/assets/vid/how/a2_program.jpg",
+      "sha256": "24fc6d467455eae306bc07129d9ddedce1d54448071da01bb13bd1ff4d5cd521",
+      "bytes": 12643
+    },
+    {
+      "file": "assets/vid/how/a3_unsure.jpg",
+      "origin_url": "https://robot-agent-exploration.com/assets/vid/how/a3_unsure.jpg",
+      "sha256": "e4ea2233f8e3398cdadc6248afd682b1ee7e1a48b07addfaa024028b7510df58",
+      "bytes": 9913
+    },
+    {
+      "file": "assets/vid/how/a1_explore.jpg",
+      "origin_url": "https://robot-agent-exploration.com/assets/vid/how/a1_explore.jpg",
+      "sha256": "08458c9eb6e4c2f7f8ea251fbbbc8166a49c90f4b8741e4666d1e10bdbf5418c",
+      "bytes": 9234
+    },
+    {
+      "file": "assets/vid/how/a4_alone.jpg",
+      "origin_url": "https://robot-agent-exploration.com/assets/vid/how/a4_alone.jpg",
+      "sha256": "c44e0fb267b8138768cbc5f5961f1c539f3c76c974ea48d3c02a78588bd2dadc",
+      "bytes": 10933
+    },
+    {
+      "file": "assets/img/how/r1_left.jpg",
+      "origin_url": "https://robot-agent-exploration.com/assets/img/how/r1_left.jpg",
+      "sha256": "83c5c99143a4ed9323dacac7154cce28ea6bad3c33790ee134bd19335376529e",
+      "bytes": 29237
+    },
+    {
+      "file": "poster.png",
+      "origin_url": "https://robot-agent-exploration.com/#method",
+      "derivation": "Screenshot of the local faithful method module at perception progress0.94; optional print/loading poster.",
+      "sha256": "9b6b2ea54fcadbb06d9d8c7c8c88a2681c8f9f9b5864f512d7f3de1f895fe56e",
+      "bytes": 369591
+    }
+  ],
+  "verification": {
+    "offline_browser_checks": 13,
+    "script_errors": 0,
+    "all_videos_fully_decoded": true,
+    "point_cloud_motion_verified": true,
+    "viewport": "1448x570 and1000x400"
+  }
+}

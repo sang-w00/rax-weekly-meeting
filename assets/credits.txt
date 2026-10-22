@@ -1,0 +1,18 @@
+RAX — Scaling Online Exploration for Robot Agents
+
+Runhan Huang, Xiangcheng Zhang, Haoyu Chen, Yitong Li, Yen-Jen Wang, Bohan Lyu, Haotian Ye, Chuye Hong, Yixuan Wang, Chloe Su, Haoyu Xiong, Yangzhen Wu, Enze Xie, Travis Manderson, Stefano Ermon, Pieter Abbeel, Antonio Torralba, Dawn Song, Weirui Ye, Yilun Du
+2026. arXiv:2610.22496v1.
+
+Paper: https://arxiv.org/pdf/2610.22496v1
+Project: https://robot-agent-exploration.com/
+
+Original tables and figures are extracted directly from the paper PDF.
+Video excerpts preserve accelerated timing from the official overview.
+The presentation adds conceptual explanations and discussion; it does not alter source results.
+
+Detailed PDF coordinates: paper/provenance.json
+Video origins and excerpt timestamps: media-manifest.json
+
+Typography: Source Serif 4 and Source Sans 3, Adobe Originals.
+Font source, designer credits, and licenses: fonts/CREDITS.txt.
+Additional official clip sources: expanded/manifest.json.

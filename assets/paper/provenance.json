@@ -1,0 +1,1018 @@
+{
+  "paper_title": "Scaling Online Exploration for Robot Agents",
+  "source_url": "https://arxiv.org/pdf/2610.22496v1",
+  "pdf_sha256": "eb4e7cc51311c4064b872e10b51d550bd4aa0cd280599768e5f1a33cc2865934",
+  "extracted_date": "2026-10-22",
+  "verification": "Original crops rendered at 300 dpi; all new crops inspected visually. SVG uses original embedded paths and images.",
+  "assets": [
+    {
+      "name": "table-01",
+      "description": "Original Table 1, caption and complete table",
+      "source_url": "https://arxiv.org/pdf/2610.22496v1",
+      "paper_version": "v1",
+      "pdf_page_1based": 15,
+      "bbox_pdf_points_top_left": [
+        68,
+        80,
+        528,
+        461
+      ],
+      "png_dpi": 300,
+      "png_dimensions": [
+        1917,
+        1588
+      ],
+      "files": [
+        "assets/paper/table-01.png"
+      ],
+      "render_method": "PDFium lossless PNG at 300 dpi; pdftocairo original vector paths with cropped viewBox",
+      "edits": "Crop only. No redraw, numerical changes, synthetic content, or image enhancement."
+    },
+    {
+      "name": "table-02",
+      "description": "Original Table 2, caption and complete table",
+      "source_url": "https://arxiv.org/pdf/2610.22496v1",
+      "paper_version": "v1",
+      "pdf_page_1based": 17,
+      "bbox_pdf_points_top_left": [
+        68,
+        404,
+        528,
+        632
+      ],
+      "png_dpi": 300,
+      "png_dimensions": [
+        1917,
+        950
+      ],
+      "files": [
+        "assets/paper/table-02.svg"
+      ],
+      "render_method": "PDFium lossless PNG at 300 dpi; pdftocairo original vector paths with cropped viewBox",
+      "edits": "Crop only. No redraw, numerical changes, synthetic content, or image enhancement."
+    },
+    {
+      "name": "table-03",
+      "description": "Original Table 3, caption and complete table",
+      "source_url": "https://arxiv.org/pdf/2610.22496v1",
+      "paper_version": "v1",
+      "pdf_page_1based": 18,
+      "bbox_pdf_points_top_left": [
+        68,
+        241,
+        528,
+        402
+      ],
+      "png_dpi": 300,
+      "png_dimensions": [
+        1917,
+        671
+      ],
+      "files": [
+        "assets/paper/table-03.svg"
+      ],
+      "render_method": "PDFium lossless PNG at 300 dpi; pdftocairo original vector paths with cropped viewBox",
+      "edits": "Crop only. No redraw, numerical changes, synthetic content, or image enhancement."
+    },
+    {
+      "name": "table-04",
+      "description": "Original Table 4, caption and complete table",
+      "source_url": "https://arxiv.org/pdf/2610.22496v1",
+      "paper_version": "v1",
+      "pdf_page_1based": 20,
+      "bbox_pdf_points_top_left": [
+        68,
+        80,
+        528,
+        345
+      ],
+      "png_dpi": 300,
+      "png_dimensions": [
+        1917,
+        1105
+      ],
+      "files": [
+        "assets/paper/table-04.svg"
+      ],
+      "render_method": "PDFium lossless PNG at 300 dpi; pdftocairo original vector paths with cropped viewBox",
+      "edits": "Crop only. No redraw, numerical changes, synthetic content, or image enhancement."
+    },
+    {
+      "name": "table-05",
+      "description": "Original Table 5, caption and complete table",
+      "source_url": "https://arxiv.org/pdf/2610.22496v1",
+      "paper_version": "v1",
+      "pdf_page_1based": 21,
+      "bbox_pdf_points_top_left": [
+        68,
+        80,
+        528,
+        351
+      ],
+      "png_dpi": 300,
+      "png_dimensions": [
+        1917,
+        1129
+      ],
+      "files": [
+        "assets/paper/table-05.svg"
+      ],
+      "render_method": "PDFium lossless PNG at 300 dpi; pdftocairo original vector paths with cropped viewBox",
+      "edits": "Crop only. No redraw, numerical changes, synthetic content, or image enhancement."
+    },
+    {
+      "name": "table-06",
+      "description": "Original Table 6, caption and complete table",
+      "source_url": "https://arxiv.org/pdf/2610.22496v1",
+      "paper_version": "v1",
+      "pdf_page_1based": 22,
+      "bbox_pdf_points_top_left": [
+        68,
+        80,
+        528,
+        347
+      ],
+      "png_dpi": 300,
+      "png_dimensions": [
+        1917,
+        1113
+      ],
+      "files": [
+        "assets/paper/table-06.svg"
+      ],
+      "render_method": "PDFium lossless PNG at 300 dpi; pdftocairo original vector paths with cropped viewBox",
+      "edits": "Crop only. No redraw, numerical changes, synthetic content, or image enhancement."
+    },
+    {
+      "name": "table-07",
+      "description": "Original Table 7, caption and complete table",
+      "source_url": "https://arxiv.org/pdf/2610.22496v1",
+      "paper_version": "v1",
+      "pdf_page_1based": 22,
+      "bbox_pdf_points_top_left": [
+        68,
+        620,
+        528,
+        736
+      ],
+      "png_dpi": 300,
+      "png_dimensions": [
+        1917,
+        484
+      ],
+      "files": [
+        "assets/paper/table-07.svg"
+      ],
+      "render_method": "PDFium lossless PNG at 300 dpi; pdftocairo original vector paths with cropped viewBox",
+      "edits": "Crop only. No redraw, numerical changes, synthetic content, or image enhancement."
+    },
+    {
+      "name": "table-08",
+      "description": "Original Table 8, caption and complete table",
+      "source_url": "https://arxiv.org/pdf/2610.22496v1",
+      "paper_version": "v1",
+      "pdf_page_1based": 23,
+      "bbox_pdf_points_top_left": [
+        68,
+        205,
+        528,
+        332
+      ],
+      "png_dpi": 300,
+      "png_dimensions": [
+        1917,
+        529
+      ],
+      "files": [
+        "assets/paper/table-08.svg"
+      ],
+      "render_method": "PDFium lossless PNG at 300 dpi; pdftocairo original vector paths with cropped viewBox",
+      "edits": "Crop only. No redraw, numerical changes, synthetic content, or image enhancement."
+    },
+    {
+      "name": "table-09",
+      "description": "Original Table 9, caption and complete table",
+      "source_url": "https://arxiv.org/pdf/2610.22496v1",
+      "paper_version": "v1",
+      "pdf_page_1based": 25,
+      "bbox_pdf_points_top_left": [
+        68,
+        188,
+        528,
+        315
+      ],
+      "png_dpi": 300,
+      "png_dimensions": [
+        1917,
+        529
+      ],
+      "files": [
+        "assets/paper/table-09.svg"
+      ],
+      "render_method": "PDFium lossless PNG at 300 dpi; pdftocairo original vector paths with cropped viewBox",
+      "edits": "Crop only. No redraw, numerical changes, synthetic content, or image enhancement."
+    },
+    {
+      "name": "table-10",
+      "description": "Original Table 10, caption and complete table",
+      "source_url": "https://arxiv.org/pdf/2610.22496v1",
+      "paper_version": "v1",
+      "pdf_page_1based": 25,
+      "bbox_pdf_points_top_left": [
+        68,
+        514,
+        528,
+        613
+      ],
+      "png_dpi": 300,
+      "png_dimensions": [
+        1917,
+        412
+      ],
+      "files": [
+        "assets/paper/table-10.svg"
+      ],
+      "render_method": "PDFium lossless PNG at 300 dpi; pdftocairo original vector paths with cropped viewBox",
+      "edits": "Crop only. No redraw, numerical changes, synthetic content, or image enhancement."
+    },
+    {
+      "name": "table-12",
+      "description": "Original Table 12, caption and complete table",
+      "source_url": "https://arxiv.org/pdf/2610.22496v1",
+      "paper_version": "v1",
+      "pdf_page_1based": 37,
+      "bbox_pdf_points_top_left": [
+        68,
+        317,
+        528,
+        525
+      ],
+      "png_dpi": 300,
+      "png_dimensions": [
+        1917,
+        867
+      ],
+      "files": [
+        "assets/paper/table-12.png"
+      ],
+      "render_method": "PDFium lossless PNG at 300 dpi; pdftocairo original vector paths with cropped viewBox",
+      "edits": "Crop only. No redraw, numerical changes, synthetic content, or image enhancement."
+    },
+    {
+      "name": "fig-01-scaling",
+      "description": "Original Figure 1, original scaling panel",
+      "source_url": "https://arxiv.org/pdf/2610.22496v1",
+      "paper_version": "v1",
+      "pdf_page_1based": 1,
+      "bbox_pdf_points_top_left": [
+        72,
+        391,
+        222,
+        455
+      ],
+      "png_dpi": 300,
+      "png_dimensions": [
+        625,
+        267
+      ],
+      "files": [
+        "assets/paper/fig-01-scaling.svg"
+      ],
+      "render_method": "PDFium lossless PNG at 300 dpi; pdftocairo original vector paths with cropped viewBox",
+      "edits": "Crop only. No redraw, numerical changes, synthetic content, or image enhancement."
+    },
+    {
+      "name": "fig-01-comparison",
+      "description": "Original Figure 1, original benchmark comparison panel",
+      "source_url": "https://arxiv.org/pdf/2610.22496v1",
+      "paper_version": "v1",
+      "pdf_page_1based": 1,
+      "bbox_pdf_points_top_left": [
+        223,
+        391,
+        374,
+        455
+      ],
+      "png_dpi": 300,
+      "png_dimensions": [
+        629,
+        267
+      ],
+      "files": [
+        "assets/paper/fig-01-comparison.svg"
+      ],
+      "render_method": "PDFium lossless PNG at 300 dpi; pdftocairo original vector paths with cropped viewBox",
+      "edits": "Crop only. No redraw, numerical changes, synthetic content, or image enhancement."
+    },
+    {
+      "name": "fig-02",
+      "description": "Original Figure 2, complete architecture without caption",
+      "source_url": "https://arxiv.org/pdf/2610.22496v1",
+      "paper_version": "v1",
+      "pdf_page_1based": 9,
+      "bbox_pdf_points_top_left": [
+        72,
+        88,
+        525,
+        309
+      ],
+      "png_dpi": 300,
+      "png_dimensions": [
+        1888,
+        921
+      ],
+      "files": [
+        "assets/paper/fig-02.png"
+      ],
+      "render_method": "PDFium lossless PNG at 300 dpi; pdftocairo original vector paths with cropped viewBox",
+      "edits": "Crop only. No redraw, numerical changes, synthetic content, or image enhancement."
+    },
+    {
+      "name": "fig-02-memory",
+      "description": "Original Figure 2, memory panel detail",
+      "source_url": "https://arxiv.org/pdf/2610.22496v1",
+      "paper_version": "v1",
+      "pdf_page_1based": 9,
+      "bbox_pdf_points_top_left": [
+        79.37,
+        93.54,
+        354.74,
+        150.24
+      ],
+      "png_dpi": 300,
+      "png_dimensions": [
+        1147,
+        236
+      ],
+      "files": [
+        "assets/paper/fig-02-memory.png"
+      ],
+      "render_method": "PDFium lossless PNG at 300 dpi; pdftocairo original vector paths with cropped viewBox",
+      "edits": "Crop only. No redraw, numerical changes, synthetic content, or image enhancement."
+    },
+    {
+      "name": "fig-02-program",
+      "description": "Original Figure 2, agent-written program detail",
+      "source_url": "https://arxiv.org/pdf/2610.22496v1",
+      "paper_version": "v1",
+      "pdf_page_1based": 9,
+      "bbox_pdf_points_top_left": [
+        375,
+        91,
+        518,
+        305
+      ],
+      "png_dpi": 300,
+      "png_dimensions": [
+        596,
+        892
+      ],
+      "files": [
+        "assets/paper/fig-02-program.svg"
+      ],
+      "render_method": "PDFium lossless PNG at 300 dpi; pdftocairo original vector paths with cropped viewBox",
+      "edits": "Crop only. No redraw, numerical changes, synthetic content, or image enhancement."
+    },
+    {
+      "name": "fig-03",
+      "description": "Original Figure 3, complete articulated model and action plans",
+      "source_url": "https://arxiv.org/pdf/2610.22496v1",
+      "paper_version": "v1",
+      "pdf_page_1based": 10,
+      "bbox_pdf_points_top_left": [
+        78,
+        168,
+        523,
+        394
+      ],
+      "png_dpi": 300,
+      "png_dimensions": [
+        1854,
+        942
+      ],
+      "files": [
+        "assets/paper/fig-03.png"
+      ],
+      "render_method": "PDFium lossless PNG at 300 dpi; pdftocairo original vector paths with cropped viewBox",
+      "edits": "Crop only. No redraw, numerical changes, synthetic content, or image enhancement."
+    },
+    {
+      "name": "fig-04",
+      "description": "Original Figure 4, complete frontend/backend diagram",
+      "source_url": "https://arxiv.org/pdf/2610.22496v1",
+      "paper_version": "v1",
+      "pdf_page_1based": 13,
+      "bbox_pdf_points_top_left": [
+        70,
+        84,
+        525,
+        217
+      ],
+      "png_dpi": 300,
+      "png_dimensions": [
+        1896,
+        554
+      ],
+      "files": [
+        "assets/paper/fig-04.svg"
+      ],
+      "render_method": "PDFium lossless PNG at 300 dpi; pdftocairo original vector paths with cropped viewBox",
+      "edits": "Crop only. No redraw, numerical changes, synthetic content, or image enhancement."
+    },
+    {
+      "name": "fig-06",
+      "description": "Original Figure 6, complete boxing-books pipeline",
+      "source_url": "https://arxiv.org/pdf/2610.22496v1",
+      "paper_version": "v1",
+      "pdf_page_1based": 19,
+      "bbox_pdf_points_top_left": [
+        72,
+        87,
+        525,
+        507
+      ],
+      "png_dpi": 300,
+      "png_dimensions": [
+        1888,
+        1750
+      ],
+      "files": [
+        "assets/paper/fig-06.png"
+      ],
+      "render_method": "PDFium lossless PNG at 300 dpi; pdftocairo original vector paths with cropped viewBox",
+      "edits": "Crop only. No redraw, numerical changes, synthetic content, or image enhancement."
+    },
+    {
+      "name": "fig-07",
+      "description": "Original Figure 7, complete inference and token plots",
+      "source_url": "https://arxiv.org/pdf/2610.22496v1",
+      "paper_version": "v1",
+      "pdf_page_1based": 24,
+      "bbox_pdf_points_top_left": [
+        70,
+        355,
+        525,
+        520
+      ],
+      "png_dpi": 300,
+      "png_dimensions": [
+        1896,
+        688
+      ],
+      "files": [
+        "assets/paper/fig-07.png",
+        "assets/paper/fig-07.svg"
+      ],
+      "render_method": "PDFium lossless PNG at 300 dpi; pdftocairo original vector paths with cropped viewBox",
+      "edits": "Crop only. No redraw, numerical changes, synthetic content, or image enhancement."
+    },
+    {
+      "name": "fig-11",
+      "description": "Original Figure 11, complete skill repository and long-horizon composition",
+      "source_url": "https://arxiv.org/pdf/2610.22496v1",
+      "paper_version": "v1",
+      "pdf_page_1based": 28,
+      "bbox_pdf_points_top_left": [
+        75,
+        110,
+        523,
+        309
+      ],
+      "png_dpi": 300,
+      "png_dimensions": [
+        1867,
+        830
+      ],
+      "files": [
+        "assets/paper/fig-11.png"
+      ],
+      "render_method": "PDFium lossless PNG at 300 dpi; pdftocairo original vector paths with cropped viewBox",
+      "edits": "Crop only. No redraw, numerical changes, synthetic content, or image enhancement."
+    },
+    {
+      "name": "fig-12",
+      "description": "Original Figure 12, complete adaptation panels",
+      "source_url": "https://arxiv.org/pdf/2610.22496v1",
+      "paper_version": "v1",
+      "pdf_page_1based": 29,
+      "bbox_pdf_points_top_left": [
+        76,
+        372,
+        522,
+        640
+      ],
+      "png_dpi": 300,
+      "png_dimensions": [
+        1858,
+        1117
+      ],
+      "files": [
+        "assets/paper/fig-12.png"
+      ],
+      "render_method": "PDFium lossless PNG at 300 dpi; pdftocairo original vector paths with cropped viewBox",
+      "edits": "Crop only. No redraw, numerical changes, synthetic content, or image enhancement."
+    },
+    {
+      "name": "table-02-body",
+      "description": "Original Table 2 body, all headers and rows; caption excluded",
+      "source_url": "https://arxiv.org/pdf/2610.22496v1",
+      "paper_version": "v1",
+      "pdf_page_1based": 17,
+      "bbox_pdf_points_top_left": [
+        86,
+        463,
+        510,
+        631
+      ],
+      "png_dpi": 300,
+      "png_dimensions": [
+        1767,
+        700
+      ],
+      "files": [
+        "assets/paper/table-02-body.svg"
+      ],
+      "render_method": "PDFium lossless PNG at 300 dpi; original vector paths cropped via viewBox",
+      "edits": "Crop only. No redraw or data changes."
+    },
+    {
+      "name": "table-04-body",
+      "description": "Original Table 4 body, all headers and rows; caption excluded",
+      "source_url": "https://arxiv.org/pdf/2610.22496v1",
+      "paper_version": "v1",
+      "pdf_page_1based": 20,
+      "bbox_pdf_points_top_left": [
+        72,
+        128,
+        523,
+        343
+      ],
+      "png_dpi": 300,
+      "png_dimensions": [
+        1879,
+        896
+      ],
+      "files": [
+        "assets/paper/table-04-body.svg"
+      ],
+      "render_method": "PDFium lossless PNG at 300 dpi; original vector paths cropped via viewBox",
+      "edits": "Crop only. No redraw or data changes."
+    },
+    {
+      "name": "table-05-body",
+      "description": "Original Table 5 body, all headers and rows; caption excluded",
+      "source_url": "https://arxiv.org/pdf/2610.22496v1",
+      "paper_version": "v1",
+      "pdf_page_1based": 21,
+      "bbox_pdf_points_top_left": [
+        76,
+        152,
+        519,
+        349
+      ],
+      "png_dpi": 300,
+      "png_dimensions": [
+        1845,
+        821
+      ],
+      "files": [
+        "assets/paper/table-05-body.svg"
+      ],
+      "render_method": "PDFium lossless PNG at 300 dpi; original vector paths cropped via viewBox",
+      "edits": "Crop only. No redraw or data changes."
+    },
+    {
+      "name": "table-06-body",
+      "description": "Original Table 6 body, all headers and rows; caption excluded",
+      "source_url": "https://arxiv.org/pdf/2610.22496v1",
+      "paper_version": "v1",
+      "pdf_page_1based": 22,
+      "bbox_pdf_points_top_left": [
+        92,
+        152,
+        503,
+        346
+      ],
+      "png_dpi": 300,
+      "png_dimensions": [
+        1713,
+        809
+      ],
+      "files": [
+        "assets/paper/table-06-body.svg"
+      ],
+      "render_method": "PDFium lossless PNG at 300 dpi; original vector paths cropped via viewBox",
+      "edits": "Crop only. No redraw or data changes."
+    },
+    {
+      "name": "fig-03-planning",
+      "description": "Original Figure 3, panel b action planning detail; complete legend supplied separately as fig-03-legend",
+      "source_url": "https://arxiv.org/pdf/2610.22496v1",
+      "paper_version": "v1",
+      "pdf_page_1based": 10,
+      "bbox_pdf_points_top_left": [
+        295,
+        168,
+        523,
+        370
+      ],
+      "png_dpi": 300,
+      "png_dimensions": [
+        950,
+        842
+      ],
+      "files": [
+        "assets/paper/fig-03-planning.png"
+      ],
+      "render_method": "PDFium lossless PNG at 300 dpi; original vector paths cropped via viewBox",
+      "edits": "Crop only. No redraw or data changes."
+    },
+    {
+      "name": "fig-06-perception-planning",
+      "description": "Original Figure 6, robot inputs, perception, visual odometry, mapping, and A-star planning panels",
+      "source_url": "https://arxiv.org/pdf/2610.22496v1",
+      "paper_version": "v1",
+      "pdf_page_1based": 19,
+      "bbox_pdf_points_top_left": [
+        73,
+        155,
+        523,
+        350
+      ],
+      "png_dpi": 300,
+      "png_dimensions": [
+        1875,
+        812
+      ],
+      "files": [
+        "assets/paper/fig-06-perception-planning.png"
+      ],
+      "render_method": "PDFium lossless PNG at 300 dpi; original vector paths cropped via viewBox",
+      "edits": "Crop only. No redraw or data changes."
+    },
+    {
+      "name": "fig-12-wiping",
+      "description": "Original Figure 12, complete lower wet-towel to paper-towel adaptation panel",
+      "source_url": "https://arxiv.org/pdf/2610.22496v1",
+      "paper_version": "v1",
+      "pdf_page_1based": 29,
+      "bbox_pdf_points_top_left": [
+        76,
+        500,
+        522,
+        640
+      ],
+      "png_dpi": 300,
+      "png_dimensions": [
+        1858,
+        584
+      ],
+      "files": [
+        "assets/paper/fig-12-wiping.png"
+      ],
+      "render_method": "PDFium lossless PNG at 300 dpi; original vector paths cropped via viewBox",
+      "edits": "Crop only. No redraw or data changes."
+    },
+    {
+      "name": "fig-02-code-perception",
+      "description": "Original Figure 2 program excerpt: measured constants, open_drawer definition, depth back-projection, axis/radius validation, and handle-direction estimation",
+      "source_url": "https://arxiv.org/pdf/2610.22496v1",
+      "paper_version": "v1",
+      "pdf_page_1based": 9,
+      "bbox_pdf_points_top_left": [
+        379,
+        108,
+        516,
+        183
+      ],
+      "png_dpi": 300,
+      "png_dimensions": [
+        571,
+        312
+      ],
+      "files": [
+        "assets/paper/fig-02-code-perception.svg"
+      ],
+      "render_method": "PDFium lossless PNG at 300 dpi; original vector paths cropped via viewBox",
+      "edits": "Crop only. Actual program lines and comments preserved, no retyping."
+    },
+    {
+      "name": "fig-02-code-planning",
+      "description": "Original Figure 2 program excerpt: whole-pull preflight, grasp pose, IK search, joint-margin check, and Unsure exception",
+      "source_url": "https://arxiv.org/pdf/2610.22496v1",
+      "paper_version": "v1",
+      "pdf_page_1based": 9,
+      "bbox_pdf_points_top_left": [
+        379,
+        183,
+        516,
+        237
+      ],
+      "png_dpi": 300,
+      "png_dimensions": [
+        571,
+        226
+      ],
+      "files": [
+        "assets/paper/fig-02-code-planning.svg"
+      ],
+      "render_method": "PDFium lossless PNG at 300 dpi; original vector paths cropped via viewBox",
+      "edits": "Crop only. Actual program lines and comments preserved, no retyping."
+    },
+    {
+      "name": "fig-02-code-execution",
+      "description": "Original Figure 2 program excerpt: approach, grasp, step-wise pull, re-observation, and opening-distance verification",
+      "source_url": "https://arxiv.org/pdf/2610.22496v1",
+      "paper_version": "v1",
+      "pdf_page_1based": 9,
+      "bbox_pdf_points_top_left": [
+        379,
+        237,
+        516,
+        291
+      ],
+      "png_dpi": 300,
+      "png_dimensions": [
+        571,
+        224
+      ],
+      "files": [
+        "assets/paper/fig-02-code-execution.svg"
+      ],
+      "render_method": "PDFium lossless PNG at 300 dpi; original vector paths cropped via viewBox",
+      "edits": "Crop only. Actual program lines and comments preserved, no retyping."
+    },
+    {
+      "name": "fig-05",
+      "description": "Original Figure 5, long-horizon RB-Y1 task",
+      "source_url": "https://arxiv.org/pdf/2610.22496v1",
+      "paper_version": "v1",
+      "pdf_page_1based": 14,
+      "bbox_pdf_points_top_left": [
+        71,
+        85,
+        525,
+        396
+      ],
+      "png_dpi": 300,
+      "png_dimensions": [
+        1892,
+        1296
+      ],
+      "files": [
+        "assets/paper/fig-05.png"
+      ],
+      "render_method": "PDFium lossless PNG at 300 dpi; pdftocairo original vector paths with cropped viewBox",
+      "edits": "Crop only. No redraw, numerical changes, synthetic content, or image enhancement."
+    },
+    {
+      "name": "fig-08",
+      "description": "Original Figure 8, complete active-perception panels",
+      "source_url": "https://arxiv.org/pdf/2610.22496v1",
+      "paper_version": "v1",
+      "pdf_page_1based": 26,
+      "bbox_pdf_points_top_left": [
+        76,
+        88,
+        522,
+        218
+      ],
+      "png_dpi": 300,
+      "png_dimensions": [
+        1858,
+        541
+      ],
+      "files": [
+        "assets/paper/fig-08.png"
+      ],
+      "render_method": "PDFium lossless PNG at 300 dpi; pdftocairo original vector paths with cropped viewBox",
+      "edits": "Crop only. No redraw, numerical changes, synthetic content, or image enhancement."
+    },
+    {
+      "name": "fig-10",
+      "description": "Original Figure 10: complete human-robot interaction figure, excluding external caption",
+      "source_url": "https://arxiv.org/pdf/2610.22496v1",
+      "paper_version": "v1",
+      "pdf_page_1based": 27,
+      "bbox_pdf_points_top_left": [
+        95,
+        612,
+        501,
+        705
+      ],
+      "png_dpi": 300,
+      "png_dimensions": [
+        1692,
+        388
+      ],
+      "files": [
+        "assets/paper/fig-10.png"
+      ],
+      "render_method": "PDFium lossless PNG at 300 dpi; original pdftocairo vector paths with cropped viewBox",
+      "edits": "Crop only. No redraw, data changes, image enhancement, or synthetic content."
+    },
+    {
+      "name": "fig-05-scene-model",
+      "description": "Original Figure 5: cup perception, desk measurement, scene model and planned routes",
+      "source_url": "https://arxiv.org/pdf/2610.22496v1",
+      "paper_version": "v1",
+      "pdf_page_1based": 14,
+      "bbox_pdf_points_top_left": [
+        71,
+        166,
+        525,
+        269
+      ],
+      "png_dpi": 300,
+      "png_dimensions": [
+        1892,
+        429
+      ],
+      "files": [
+        "assets/paper/fig-05-scene-model.png"
+      ],
+      "render_method": "PDFium lossless PNG at 300 dpi; original pdftocairo vector paths with cropped viewBox",
+      "edits": "Crop only. No redraw, data changes, image enhancement, or synthetic content."
+    },
+    {
+      "name": "fig-05-task-flow",
+      "description": "Original Figure 5: six-stage side/head camera task flow",
+      "source_url": "https://arxiv.org/pdf/2610.22496v1",
+      "paper_version": "v1",
+      "pdf_page_1based": 14,
+      "bbox_pdf_points_top_left": [
+        71,
+        272,
+        525,
+        396
+      ],
+      "png_dpi": 300,
+      "png_dimensions": [
+        1892,
+        517
+      ],
+      "files": [
+        "assets/paper/fig-05-task-flow.png"
+      ],
+      "render_method": "PDFium lossless PNG at 300 dpi; original pdftocairo vector paths with cropped viewBox",
+      "edits": "Crop only. No redraw, data changes, image enhancement, or synthetic content."
+    },
+    {
+      "name": "fig-09-cabinet",
+      "description": "Original Figure 9: cabinet collision and swept-footprint rule",
+      "source_url": "https://arxiv.org/pdf/2610.22496v1",
+      "paper_version": "v1",
+      "pdf_page_1based": 27,
+      "bbox_pdf_points_top_left": [
+        76,
+        88,
+        522,
+        217
+      ],
+      "png_dpi": 300,
+      "png_dimensions": [
+        1858,
+        537
+      ],
+      "files": [
+        "assets/paper/fig-09-cabinet.png"
+      ],
+      "render_method": "PDFium lossless PNG at 300 dpi; original pdftocairo vector paths with cropped viewBox",
+      "edits": "Crop only. No redraw, data changes, image enhancement, or synthetic content."
+    },
+    {
+      "name": "fig-09-postures",
+      "description": "Original Figure 9: arm posture and camera clearance rule",
+      "source_url": "https://arxiv.org/pdf/2610.22496v1",
+      "paper_version": "v1",
+      "pdf_page_1based": 27,
+      "bbox_pdf_points_top_left": [
+        294,
+        221,
+        522,
+        364
+      ],
+      "png_dpi": 300,
+      "png_dimensions": [
+        950,
+        596
+      ],
+      "files": [
+        "assets/paper/fig-09-postures.png"
+      ],
+      "render_method": "PDFium lossless PNG at 300 dpi; original pdftocairo vector paths with cropped viewBox",
+      "edits": "Crop only. No redraw, data changes, image enhancement, or synthetic content."
+    },
+    {
+      "name": "fig-09-wrist",
+      "description": "Original Figure 9: wrist overload and standing-up correction",
+      "source_url": "https://arxiv.org/pdf/2610.22496v1",
+      "paper_version": "v1",
+      "pdf_page_1based": 27,
+      "bbox_pdf_points_top_left": [
+        76,
+        221,
+        275,
+        364
+      ],
+      "png_dpi": 300,
+      "png_dimensions": [
+        829,
+        596
+      ],
+      "files": [
+        "assets/paper/fig-09-wrist.png"
+      ],
+      "render_method": "PDFium lossless PNG at 300 dpi; original pdftocairo vector paths with cropped viewBox",
+      "edits": "Crop only. No redraw, data changes, image enhancement, or synthetic content."
+    },
+    {
+      "name": "fig-11-library",
+      "description": "Original Figure 11: stored skill library from prior sessions",
+      "source_url": "https://arxiv.org/pdf/2610.22496v1",
+      "paper_version": "v1",
+      "pdf_page_1based": 28,
+      "bbox_pdf_points_top_left": [
+        75,
+        110,
+        523,
+        190
+      ],
+      "png_dpi": 300,
+      "png_dimensions": [
+        1867,
+        334
+      ],
+      "files": [
+        "assets/paper/fig-11-library.png"
+      ],
+      "render_method": "PDFium lossless PNG at 300 dpi; original pdftocairo vector paths with cropped viewBox",
+      "edits": "Crop only. No redraw, data changes, image enhancement, or synthetic content."
+    },
+    {
+      "name": "fig-11-execution",
+      "description": "Original Figure 11: final six-stage execution and skill calls",
+      "source_url": "https://arxiv.org/pdf/2610.22496v1",
+      "paper_version": "v1",
+      "pdf_page_1based": 28,
+      "bbox_pdf_points_top_left": [
+        75,
+        191,
+        523,
+        309
+      ],
+      "png_dpi": 300,
+      "png_dimensions": [
+        1867,
+        492
+      ],
+      "files": [
+        "assets/paper/fig-11-execution.png"
+      ],
+      "render_method": "PDFium lossless PNG at 300 dpi; original pdftocairo vector paths with cropped viewBox",
+      "edits": "Crop only. No redraw, data changes, image enhancement, or synthetic content."
+    },
+    {
+      "name": "fig-12-cube",
+      "description": "Original Figure 12: cube-hiding and object-change adaptation, top panel",
+      "source_url": "https://arxiv.org/pdf/2610.22496v1",
+      "paper_version": "v1",
+      "pdf_page_1based": 29,
+      "bbox_pdf_points_top_left": [
+        76,
+        372,
+        522,
+        486
+      ],
+      "png_dpi": 300,
+      "png_dimensions": [
+        1858,
+        475
+      ],
+      "files": [
+        "assets/paper/fig-12-cube.png"
+      ],
+      "render_method": "PDFium lossless PNG at 300 dpi; original pdftocairo vector paths with cropped viewBox",
+      "edits": "Crop only. No redraw, data changes, image enhancement, or synthetic content."
+    },
+    {
+      "name": "institution-logos",
+      "description": "Institution logo row from the paper title page: Harvard, NVIDIA, UC Berkeley, MIT, Stanford",
+      "source_url": "https://arxiv.org/pdf/2610.22496v1",
+      "paper_version": "v1",
+      "pdf_page_1based": 1,
+      "bbox_pdf_points_top_left": [
+        70.0,
+        26.0,
+        318.0,
+        61.0
+      ],
+      "files": [
+        "assets/paper/institution-logos.svg"
+      ],
+      "render_method": "Crop the original PDF page and export SVG; original vector paths and embedded NVIDIA image retained",
+      "edits": "Crop only; original order, proportions, colors, and artwork retained."
+    }
+  ],
+  "package_note": "Only presentation and zoom assets are included. Crop-only originals preserve source content; full caption/table versions remain available through figure enlargement."
+}
