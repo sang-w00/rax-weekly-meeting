@@ -15,8 +15,8 @@ A one-slide summary and the original Figure 1 scaling curve follow the cover.
 The four backup slides cover robot interfaces, common agent instructions,
 parallel exploration, and the humanoid action-demonstration ablation.
 
-Suggested pacing: opening and background 5:05; method 7:00;
-evaluation 8:25; mechanisms 4:30; reuse and adaptation 3:00;
+Suggested pacing: opening and background 5:05; method 7:20;
+evaluation 7:00; mechanisms 4:30; reuse and adaptation 4:05;
 discussion 2:00. Concise speaking cues precede optional technical detail.
 
 Selected figures from the main paper and appendix explain the method, geometry
@@ -42,7 +42,10 @@ closes. There are no controls. The next step shows the geometry estimators.
 These modules pause when hidden. After interacting inside a module, click the
 slide margin and use the arrow keys to continue the presentation.
 
-Short demo cuts retain the source video's timing and speed annotations.
+The air-fryer (45 seconds, slide 8) and RB-Y1 (1 minute 50 seconds, slide 26)
+videos show complete task segments from the official overview, with no added
+internal cuts or speed changes. Play each once through its final placement or
+closure while narrating. Other short demo cuts retain source speed annotations.
 They are qualitative, often accelerated examples, not real-time execution
 measurements or estimates of benchmark success rates. Playback is silent.
 

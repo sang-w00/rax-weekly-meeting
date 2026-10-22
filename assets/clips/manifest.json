@@ -1,7 +1,7 @@
 {
   "project_url": "https://robot-agent-exploration.com/",
   "created_date": "2026-10-22",
-  "editing_policy": "Only chronological source excerpts are concatenated. No generative imagery or temporal speed-up added. Audio omitted for presentation. Official source footage is already accelerated/edited.",
+  "editing_policy": "Official source footage is already accelerated/edited. Complete air-fryer and RB-Y1 task segments are each retained as one continuous interval with no additional internal cuts or speed changes. Other examples use chronological excerpts. Audio omitted for presentation.",
   "assets": [
     {
       "file": "assets/clips/behavior-boxing20.mp4",
@@ -220,111 +220,54 @@
       "type": "video/mp4"
     },
     {
-      "file": "assets/clips/airfryer-task25.mp4",
-      "poster": "assets/clips/airfryer-task25.jpg",
-      "subject": "Air-fryer task: open, place, close",
-      "condition": "Selected stages of the official edited real-Franka overview. Qualitative task illustration; original on-screen timing annotations retained.",
-      "duration_seconds": 25.0,
+      "file": "assets/clips/airfryer-complete.mp4",
+      "poster": "assets/clips/airfryer-complete.jpg",
+      "subject": "Air fryer: open, place banana and ball, close",
+      "condition": "Complete task segment from the official overview, retaining the authors' accelerated playback. No additional internal cuts or speed changes.",
+      "duration_seconds": 45.3,
       "width": 1280,
       "height": 720,
       "codec": "h264",
-      "frame_rate": "25/1",
-      "bytes": 3682591,
-      "sha256": "7441d6ce543c90874de3b641de3bba47ddf03dbc6df9e19808f301d288083eb3",
-      "poster_timestamp_seconds": 2.0,
-      "caveat": "This is edited/accelerated qualitative footage. Playback length is not task execution time or a success-rate estimate.",
+      "frame_rate": "30/1",
+      "bytes": 4936478,
+      "sha256": "4a35ca872cd7ef3d534c0a640212c4a11d1aedd26162f1dcef2dcb8dffc4a634",
+      "poster_timestamp_seconds": 14,
+      "caveat": "The official overview already contains acceleration and editing; this is not the full exploration session or real-time robot execution.",
       "source_segments": [
         {
           "url": "https://assets.robot-agent-exploration.com/static/rax_overview_light_v3.mp4",
           "source_range_seconds": [
-            132,
-            143
-          ]
-        },
-        {
-          "url": "https://assets.robot-agent-exploration.com/static/rax_overview_light_v3.mp4",
-          "source_range_seconds": [
-            145,
-            153
-          ]
-        },
-        {
-          "url": "https://assets.robot-agent-exploration.com/static/rax_overview_light_v3.mp4",
-          "source_range_seconds": [
-            166,
-            172
-          ]
+            129.5,
+            174.8
+          ],
+          "stage": "Continuous complete task segment"
         }
-      ],
-      "origin_url": "https://assets.robot-agent-exploration.com/static/rax_overview_light_v3.mp4",
-      "origin_urls": [
-        "https://assets.robot-agent-exploration.com/static/rax_overview_light_v3.mp4"
-      ],
-      "type": "video/mp4"
+      ]
     },
     {
-      "file": "assets/clips/rby1-six-stages18.mp4",
-      "poster": "assets/clips/rby1-six-stages18.jpg",
-      "subject": "RB-Y1 six-stage tidying",
-      "condition": "Six noncontiguous stages of the RB-Y1 long task. The final trial lasted 98 minutes with agent checkpoints and operator support.",
-      "duration_seconds": 18.0,
+      "file": "assets/clips/rby1-complete.mp4",
+      "poster": "assets/clips/rby1-complete.jpg",
+      "subject": "RB-Y1: all six stages, ending with box placement",
+      "condition": "Complete task segment from the official overview, retaining the authors' accelerated playback. No additional internal cuts or speed changes.",
+      "duration_seconds": 110.0,
       "width": 1280,
       "height": 720,
       "codec": "h264",
-      "frame_rate": "25/1",
-      "bytes": 3113505,
-      "sha256": "266269807ce79594f0635527a41e94d0c78e4a4eb728145b94bff0b956283b42",
-      "poster_timestamp_seconds": 7.0,
-      "caveat": "This is edited/accelerated qualitative footage. Playback length is not task execution time or a success-rate estimate.",
+      "frame_rate": "30/1",
+      "bytes": 14090742,
+      "sha256": "42a55f12a63ab37735269601e77a2a2149e296af3b325fa7d7502e2386c3e5f3",
+      "poster_timestamp_seconds": 42,
+      "caveat": "The official overview already contains acceleration and editing; this is not the full exploration session or real-time robot execution.",
       "source_segments": [
         {
           "url": "https://assets.robot-agent-exploration.com/static/rax_overview_light_v3.mp4",
           "source_range_seconds": [
-            385,
-            388
-          ]
-        },
-        {
-          "url": "https://assets.robot-agent-exploration.com/static/rax_overview_light_v3.mp4",
-          "source_range_seconds": [
-            399,
-            402
-          ]
-        },
-        {
-          "url": "https://assets.robot-agent-exploration.com/static/rax_overview_light_v3.mp4",
-          "source_range_seconds": [
-            419,
-            422
-          ]
-        },
-        {
-          "url": "https://assets.robot-agent-exploration.com/static/rax_overview_light_v3.mp4",
-          "source_range_seconds": [
-            438,
-            441
-          ]
-        },
-        {
-          "url": "https://assets.robot-agent-exploration.com/static/rax_overview_light_v3.mp4",
-          "source_range_seconds": [
-            452,
-            455
-          ]
-        },
-        {
-          "url": "https://assets.robot-agent-exploration.com/static/rax_overview_light_v3.mp4",
-          "source_range_seconds": [
-            465,
-            468
-          ]
+            372.6,
+            482.6
+          ],
+          "stage": "Continuous complete task segment"
         }
-      ],
-      "origin_url": "https://assets.robot-agent-exploration.com/static/rax_overview_light_v3.mp4",
-      "origin_urls": [
-        "https://assets.robot-agent-exploration.com/static/rax_overview_light_v3.mp4"
-      ],
-      "type": "video/mp4"
+      ]
     }
   ],
   "verification": "All seven final clips fully decoded with ffmpeg and inspected in timestamped contact sheets. H.264/yuv420p, silent, with posters extracted from the final clips.",
