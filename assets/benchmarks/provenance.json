@@ -4,27 +4,6 @@
   "verification": "Three MP4s fully decoded with ffmpeg. Original PDF crops and official task images visually inspected. No source content redrawn or generated.",
   "assets": [
     {
-      "name": "behavior-task-goal",
-      "files": [
-        "assets/benchmarks/behavior-task-goal.png"
-      ],
-      "description": "Figure 6 task definition and start/goal scene sequence for boxing books",
-      "origin_url": "https://arxiv.org/pdf/2610.22496v1",
-      "pdf_page_1based": 19,
-      "bbox_pdf_points_top_left": [
-        72,
-        87,
-        525,
-        151
-      ],
-      "png_dpi": 300,
-      "png_dimensions": [
-        1888,
-        267
-      ],
-      "edits": "Crop only; original labels and pixels preserved."
-    },
-    {
       "name": "libero-layout-pair",
       "files": [
         "assets/benchmarks/libero-layout-pair.png"
@@ -67,58 +46,6 @@
       "edits": "Crop only; original labels and pixels preserved."
     },
     {
-      "name": "dexjoco-grasp-trials",
-      "files": [
-        "assets/benchmarks/dexjoco-grasp-trials.png"
-      ],
-      "description": "Figure 16: five grasp candidates on the DexJoCo bimanual Hanoi task",
-      "origin_url": "https://arxiv.org/pdf/2610.22496v1",
-      "pdf_page_1based": 48,
-      "bbox_pdf_points_top_left": [
-        70,
-        204,
-        523,
-        322
-      ],
-      "png_dpi": 300,
-      "png_dimensions": [
-        1887,
-        492
-      ],
-      "edits": "Crop only; original labels and pixels preserved."
-    },
-    {
-      "name": "robodojo-make_toast",
-      "file": "assets/benchmarks/robodojo-make_toast.jpg",
-      "origin_url": "https://media.luminis-sim.com/media/home/sim/posters/make_toast.jpg",
-      "official_site": "https://robodojo-benchmark.com/",
-      "role": "Benchmark task illustration, NOT a RAX rollout",
-      "task": "make_toast",
-      "caveat": "The make_toast visual is the base task; RAX evaluates make_toast_random. Playback length is not a physical runtime or RAX success-rate measurement.",
-      "bytes": 77011,
-      "sha256": "4d99afa3b30b4fbc20cc893f78189c28c11677f93ca7717648ba828c3fb00cb9"
-    },
-    {
-      "name": "robodojo-make_toast",
-      "file": "assets/benchmarks/robodojo-make_toast.mp4",
-      "origin_url": "https://media.luminis-sim.com/media/home/sim-v2/make_toast.mp4",
-      "official_site": "https://robodojo-benchmark.com/",
-      "role": "Benchmark task illustration, NOT a RAX rollout",
-      "task": "make_toast",
-      "caveat": "The make_toast visual is the base task; RAX evaluates make_toast_random. Playback length is not a physical runtime or RAX success-rate measurement.",
-      "bytes": 349906,
-      "sha256": "ee63116e60d9e7f7e503e054a5527c556d8c7a16c863d09f2632f7e2472e0972",
-      "duration_seconds": 23.36,
-      "streams": [
-        {
-          "codec_name": "h264",
-          "codec_type": "video",
-          "width": 480,
-          "height": 360
-        }
-      ]
-    },
-    {
       "name": "robodojo-plug_in_charger",
       "file": "assets/benchmarks/robodojo-plug_in_charger.jpg",
       "origin_url": "https://media.luminis-sim.com/media/home/sim/posters/plug_in_charger.jpg",
@@ -148,64 +75,6 @@
           "height": 360
         }
       ]
-    },
-    {
-      "name": "robodojo-make_kong",
-      "file": "assets/benchmarks/robodojo-make_kong.jpg",
-      "origin_url": "https://media.luminis-sim.com/media/home/sim/posters/make_kong.jpg",
-      "official_site": "https://robodojo-benchmark.com/",
-      "role": "Benchmark task illustration, NOT a RAX rollout",
-      "task": "make_kong",
-      "caveat": "The make_toast visual is the base task; RAX evaluates make_toast_random. Playback length is not a physical runtime or RAX success-rate measurement.",
-      "bytes": 80104,
-      "sha256": "bea0a1f7b28c61a2b87d7db1fdecceda48e59c239a6f137391557c345690c138"
-    },
-    {
-      "name": "robodojo-make_kong",
-      "file": "assets/benchmarks/robodojo-make_kong.mp4",
-      "origin_url": "https://media.luminis-sim.com/media/home/sim-v2/make_kong.mp4",
-      "official_site": "https://robodojo-benchmark.com/",
-      "role": "Benchmark task illustration, NOT a RAX rollout",
-      "task": "make_kong",
-      "caveat": "The make_toast visual is the base task; RAX evaluates make_toast_random. Playback length is not a physical runtime or RAX success-rate measurement.",
-      "bytes": 181712,
-      "sha256": "aa9ef16f0fe133491a01d3450ef5d3270df213a0531d6a1c14357c03685d5234",
-      "duration_seconds": 15.32,
-      "streams": [
-        {
-          "codec_name": "h264",
-          "codec_type": "video",
-          "width": 480,
-          "height": 360
-        }
-      ]
-    },
-    {
-      "name": "humanoid-approach",
-      "file": "assets/benchmarks/humanoid-approach.jpg",
-      "origin_url": "https://robot-agent-exploration.com/assets/vid/doubledesk/doubledesk_p01.jpg",
-      "role": "DoubleDesk task illustration from the project action-free case",
-      "caveat": "Not the same run/condition as the main 3-action-demo Table4 setting.",
-      "bytes": 12413,
-      "sha256": "65760184b0c64d959e94f93f44a2b94164a9f5be6f80bf2ff58c5ccd26684b56"
-    },
-    {
-      "name": "humanoid-cross-bar",
-      "file": "assets/benchmarks/humanoid-cross-bar.jpg",
-      "origin_url": "https://robot-agent-exploration.com/assets/vid/doubledesk/doubledesk_p05.jpg",
-      "role": "DoubleDesk task illustration from the project action-free case",
-      "caveat": "Not the same run/condition as the main 3-action-demo Table4 setting.",
-      "bytes": 14583,
-      "sha256": "544ef9e86090d587f29df286c9c20a736157f9f38188d1153287cd0d22325b6f"
-    },
-    {
-      "name": "humanoid-place-hammer",
-      "file": "assets/benchmarks/humanoid-place-hammer.jpg",
-      "origin_url": "https://robot-agent-exploration.com/assets/vid/doubledesk/doubledesk_p07.jpg",
-      "role": "DoubleDesk task illustration from the project action-free case",
-      "caveat": "Not the same run/condition as the main 3-action-demo Table4 setting.",
-      "bytes": 14951,
-      "sha256": "6634510d07d2a4fa513435da3318d312093627d5d666425757434a529eaab3c3"
     }
   ]
 }

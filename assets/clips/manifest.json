@@ -325,35 +325,6 @@
         "https://assets.robot-agent-exploration.com/static/rax_overview_light_v3.mp4"
       ],
       "type": "video/mp4"
-    },
-    {
-      "file": "assets/clips/bandu-final18.mp4",
-      "poster": "assets/clips/bandu-final18.jpg",
-      "subject": "Bandu final assembly",
-      "condition": "Final portions of an unattended seven-piece reconstruction. The entire reconstruction took 663 seconds; this clip is not the complete run.",
-      "duration_seconds": 18.0,
-      "width": 1280,
-      "height": 720,
-      "codec": "h264",
-      "frame_rate": "25/1",
-      "bytes": 1589956,
-      "sha256": "78b3ab7527643ea4498307f91e652286edd7524154656379483b9e816e20391e",
-      "poster_timestamp_seconds": 5.0,
-      "caveat": "This is edited/accelerated qualitative footage. Playback length is not task execution time or a success-rate estimate.",
-      "source_segments": [
-        {
-          "url": "https://assets.robot-agent-exploration.com/static/rax_overview_light_v3.mp4",
-          "source_range_seconds": [
-            324,
-            342
-          ]
-        }
-      ],
-      "origin_url": "https://assets.robot-agent-exploration.com/static/rax_overview_light_v3.mp4",
-      "origin_urls": [
-        "https://assets.robot-agent-exploration.com/static/rax_overview_light_v3.mp4"
-      ],
-      "type": "video/mp4"
     }
   ],
   "verification": "All seven final clips fully decoded with ffmpeg and inspected in timestamped contact sheets. H.264/yuv420p, silent, with posters extracted from the final clips.",

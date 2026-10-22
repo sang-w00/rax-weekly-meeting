@@ -35,36 +35,6 @@
       "visual_review": "Source page and extracted crop inspected."
     },
     {
-      "figure": 16,
-      "title": "Failure-guided grasp design",
-      "finding": "Four grasp designs fail for distinct geometric reasons; a rolled vertical pinch carries both disks.",
-      "recommended_use_and_limit": "Main: strong exploration mechanism. Successful carry in episode4 was not yet complete task success.",
-      "source_url": "https://arxiv.org/pdf/2610.22496v1",
-      "pdf_page_1based": 48,
-      "bbox_pdf_points_top_left": [
-        70,
-        202,
-        525,
-        336
-      ],
-      "captioned_bbox_pdf_points_top_left": [
-        68,
-        202,
-        528,
-        380
-      ],
-      "dpi": 300,
-      "dimensions": [
-        1896,
-        558
-      ],
-      "files": [
-        "assets/appendix/fig-16.png"
-      ],
-      "edits": "Crop only; original PDF content, colors, labels, and numbers preserved.",
-      "visual_review": "Source page and extracted crop inspected."
-    },
-    {
       "figure": 20,
       "title": "Stage-level debugging across program versions",
       "finding": "The heatmap shows distinct stage failures and final34/60 completed test episodes; grasp remains a bottleneck.",
@@ -120,66 +90,6 @@
       ],
       "files": [
         "assets/appendix/fig-26.png"
-      ],
-      "edits": "Crop only; original PDF content, colors, labels, and numbers preserved.",
-      "visual_review": "Source page and extracted crop inspected."
-    },
-    {
-      "figure": 30,
-      "title": "Wiping with multi-scale verification",
-      "finding": "Exterior and wrist views detect different residue scales; policy repeats a wipe when checks fail.",
-      "recommended_use_and_limit": "Main: strong finding about outcome verification and sensing, with a concrete false-clean correction.",
-      "source_url": "https://arxiv.org/pdf/2610.22496v1",
-      "pdf_page_1based": 70,
-      "bbox_pdf_points_top_left": [
-        73,
-        193,
-        524,
-        596
-      ],
-      "captioned_bbox_pdf_points_top_left": [
-        68,
-        193,
-        528,
-        652
-      ],
-      "dpi": 300,
-      "dimensions": [
-        1879,
-        1679
-      ],
-      "files": [
-        "assets/appendix/fig-30.png"
-      ],
-      "edits": "Crop only; original PDF content, colors, labels, and numbers preserved.",
-      "visual_review": "Source page and extracted crop inspected."
-    },
-    {
-      "figure": 32,
-      "title": "CAD registration, contact search, and tilted entry",
-      "finding": "The procedure combines wrist-image edges, board/peg CAD, force probing, corner entry, and small pushes.",
-      "recommended_use_and_limit": "Main: best precision-method detail. Preserve that CAD and operator advice were provided.",
-      "source_url": "https://arxiv.org/pdf/2610.22496v1",
-      "pdf_page_1based": 73,
-      "bbox_pdf_points_top_left": [
-        73,
-        177,
-        524,
-        623
-      ],
-      "captioned_bbox_pdf_points_top_left": [
-        68,
-        177,
-        528,
-        669
-      ],
-      "dpi": 300,
-      "dimensions": [
-        1879,
-        1858
-      ],
-      "files": [
-        "assets/appendix/fig-32.png"
       ],
       "edits": "Crop only; original PDF content, colors, labels, and numbers preserved.",
       "visual_review": "Source page and extracted crop inspected."

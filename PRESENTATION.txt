@@ -9,23 +9,23 @@ extract the complete ZIP and open its index.html.
 
 CONTENTS
 31 main slides with a suggested total speaking time of 30 minutes, followed by
-24 technical backup slides. Speaker notes contain explanations, timing, and
+4 technical backup slides. Speaker notes contain explanations, timing, and
 evaluation conditions. Step-by-step builds let one slide support several points.
-The cover leads directly into the background. A short paper summary is available
-in the technical backup.
+A one-slide summary and the original Figure 1 scaling curve follow the cover.
+The four backup slides cover robot interfaces, common agent instructions,
+parallel exploration, and the humanoid action-demonstration ablation.
 
-Suggested pacing: background, problem, and related work 4.5 minutes; method 7 minutes;
-evaluation 9 minutes; mechanisms 4.5 minutes; reuse and adaptation 3 minutes;
-discussion 2 minutes. Concise speaking cues precede optional technical detail.
+Suggested pacing: opening and background 5:05; method 7:00;
+evaluation 8:25; mechanisms 4:30; reuse and adaptation 3:00;
+discussion 2:00. Concise speaking cues precede optional technical detail.
 
-The paper's main Figures 1–12 are represented through complete figures or
-relevant panels. Selected appendix figures clarify geometry estimation, dexterous
-grasping, failure patterns, layout adaptation, and real-robot implementation.
+Selected figures from the main paper and appendix explain the method, geometry
+estimation, failure patterns, layout adaptation, and real-robot implementation.
 Results use tables extracted from the paper; figures and table values are not
 redrawn. Click a figure or table to enlarge it; some open a fuller source figure.
 
 Benchmark results appear consecutively, with matching visual context. Detailed
-task introductions are in the technical backup:
+task conditions are retained in presenter notes:
 
 - BEHAVIOR: RAX boxing-books replay (3 of 6 books, Q = 0.5 in this example).
 - Humanoid: RAX DoubleDesk action-free example; the main comparison instead
@@ -35,9 +35,9 @@ task introductions are in the technical backup:
   footage rather than RAX evaluation rollouts.
 - LIBERO: paper images show the changed layout and resulting program repair.
 
-Official Method animation (slide 8): select a stage, play/pause, or replay.
+Official Method animation (slide 9): select a stage, play/pause, or replay.
 The next slide step switches to the architecture figure.
-Automatic 3D animation (slide 10): the model rotates while the drawer opens and
+Automatic 3D animation (slide 11): the model rotates while the drawer opens and
 closes. There are no controls. The next step shows the geometry estimators.
 These modules pause when hidden. After interacting inside a module, click the
 slide margin and use the arrow keys to continue the presentation.
@@ -75,5 +75,7 @@ Project: https://robot-agent-exploration.com/
 The visible slides omit source footers and a sources section. References remain
 in speaker notes and assets/media-manifest.json, which points to detailed
 asset manifests. Module and font licenses are retained alongside their files.
+Appendix references in notes use the PDF labels A–H; the PDF and corresponding
+web sections are linked separately.
 Figures and footage belong to their respective authors. Explanatory diagrams,
 interpretations, and discussion are presentation synthesis.

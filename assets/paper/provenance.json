@@ -282,29 +282,6 @@
       "edits": "Crop only. No redraw, numerical changes, synthetic content, or image enhancement."
     },
     {
-      "name": "fig-01-comparison",
-      "description": "Original Figure 1, original benchmark comparison panel",
-      "source_url": "https://arxiv.org/pdf/2610.22496v1",
-      "paper_version": "v1",
-      "pdf_page_1based": 1,
-      "bbox_pdf_points_top_left": [
-        223,
-        391,
-        374,
-        455
-      ],
-      "png_dpi": 300,
-      "png_dimensions": [
-        629,
-        267
-      ],
-      "files": [
-        "assets/paper/fig-01-comparison.svg"
-      ],
-      "render_method": "PDFium lossless PNG at 300 dpi; pdftocairo original vector paths with cropped viewBox",
-      "edits": "Crop only. No redraw, numerical changes, synthetic content, or image enhancement."
-    },
-    {
       "name": "fig-02",
       "description": "Original Figure 2, complete architecture without caption",
       "source_url": "https://arxiv.org/pdf/2610.22496v1",
@@ -420,29 +397,6 @@
       "edits": "Crop only. No redraw, numerical changes, synthetic content, or image enhancement."
     },
     {
-      "name": "fig-06",
-      "description": "Original Figure 6, complete boxing-books pipeline",
-      "source_url": "https://arxiv.org/pdf/2610.22496v1",
-      "paper_version": "v1",
-      "pdf_page_1based": 19,
-      "bbox_pdf_points_top_left": [
-        72,
-        87,
-        525,
-        507
-      ],
-      "png_dpi": 300,
-      "png_dimensions": [
-        1888,
-        1750
-      ],
-      "files": [
-        "assets/paper/fig-06.png"
-      ],
-      "render_method": "PDFium lossless PNG at 300 dpi; pdftocairo original vector paths with cropped viewBox",
-      "edits": "Crop only. No redraw, numerical changes, synthetic content, or image enhancement."
-    },
-    {
       "name": "fig-07",
       "description": "Original Figure 7, complete inference and token plots",
       "source_url": "https://arxiv.org/pdf/2610.22496v1",
@@ -460,7 +414,6 @@
         688
       ],
       "files": [
-        "assets/paper/fig-07.png",
         "assets/paper/fig-07.svg"
       ],
       "render_method": "PDFium lossless PNG at 300 dpi; pdftocairo original vector paths with cropped viewBox",
@@ -485,29 +438,6 @@
       ],
       "files": [
         "assets/paper/fig-11.png"
-      ],
-      "render_method": "PDFium lossless PNG at 300 dpi; pdftocairo original vector paths with cropped viewBox",
-      "edits": "Crop only. No redraw, numerical changes, synthetic content, or image enhancement."
-    },
-    {
-      "name": "fig-12",
-      "description": "Original Figure 12, complete adaptation panels",
-      "source_url": "https://arxiv.org/pdf/2610.22496v1",
-      "paper_version": "v1",
-      "pdf_page_1based": 29,
-      "bbox_pdf_points_top_left": [
-        76,
-        372,
-        522,
-        640
-      ],
-      "png_dpi": 300,
-      "png_dimensions": [
-        1858,
-        1117
-      ],
-      "files": [
-        "assets/paper/fig-12.png"
       ],
       "render_method": "PDFium lossless PNG at 300 dpi; pdftocairo original vector paths with cropped viewBox",
       "edits": "Crop only. No redraw, numerical changes, synthetic content, or image enhancement."
@@ -623,29 +553,6 @@
       ],
       "files": [
         "assets/paper/fig-03-planning.png"
-      ],
-      "render_method": "PDFium lossless PNG at 300 dpi; original vector paths cropped via viewBox",
-      "edits": "Crop only. No redraw or data changes."
-    },
-    {
-      "name": "fig-06-perception-planning",
-      "description": "Original Figure 6, robot inputs, perception, visual odometry, mapping, and A-star planning panels",
-      "source_url": "https://arxiv.org/pdf/2610.22496v1",
-      "paper_version": "v1",
-      "pdf_page_1based": 19,
-      "bbox_pdf_points_top_left": [
-        73,
-        155,
-        523,
-        350
-      ],
-      "png_dpi": 300,
-      "png_dimensions": [
-        1875,
-        812
-      ],
-      "files": [
-        "assets/paper/fig-06-perception-planning.png"
       ],
       "render_method": "PDFium lossless PNG at 300 dpi; original vector paths cropped via viewBox",
       "edits": "Crop only. No redraw or data changes."

@@ -6,26 +6,6 @@
   "caveat": "Official project clips are short and edited/accelerated. Playback length does not indicate actual robot execution time or exploration cost.",
   "assets": [
     {
-      "file": "assets/expanded/hanoi-failed-pinch.mp4",
-      "origin_url": "https://robot-agent-exploration.com/assets/vid/hanoi/hanoi_s03.mp4",
-      "subject": "DexJoCo Tower of Hanoi",
-      "caption_en": "Episode 2: an off-center pinch lets the disk swing and drop.",
-      "caveat": "Official project excerpt. Treat as accelerated or edited qualitative footage, not real-time performance or a success-rate estimate.",
-      "bytes": 61133,
-      "sha256": "995a9367c684963630148738471d27b4fd2514feec630a6601d9ebf8508651cd",
-      "duration_seconds": 4.75,
-      "streams": [
-        {
-          "codec_name": "h264",
-          "codec_type": "video",
-          "width": 640,
-          "height": 360,
-          "r_frame_rate": "20/1"
-        }
-      ],
-      "type": "video/mp4"
-    },
-    {
       "file": "assets/expanded/hanoi-failed-pinch.jpg",
       "origin_url": "https://robot-agent-exploration.com/assets/vid/hanoi/hanoi_s03.jpg",
       "subject": "DexJoCo Tower of Hanoi",
@@ -33,38 +13,6 @@
       "caveat": "Official project excerpt. Treat as accelerated or edited qualitative footage, not real-time performance or a success-rate estimate.",
       "bytes": 21383,
       "sha256": "53757c33d50cf34487cbc0bc792b62c2a07cf2f092ee3458eb21302f84c6324f",
-      "width": 640,
-      "height": 360,
-      "type": "image/jpeg"
-    },
-    {
-      "file": "assets/expanded/hanoi-program-success.mp4",
-      "origin_url": "https://robot-agent-exploration.com/assets/vid/hanoi/hanoi_s06.mp4",
-      "subject": "DexJoCo Tower of Hanoi",
-      "caption_en": "Episode 6: the first autonomous program runs succeed after earlier grasp revisions.",
-      "caveat": "Official project excerpt. Treat as accelerated or edited qualitative footage, not real-time performance or a success-rate estimate.",
-      "bytes": 130845,
-      "sha256": "fc5c4e3199f7897d641faa6b8a2e1048985f1100724caa2daa68a38bd6a4569b",
-      "duration_seconds": 4.8,
-      "streams": [
-        {
-          "codec_name": "h264",
-          "codec_type": "video",
-          "width": 640,
-          "height": 360,
-          "r_frame_rate": "20/1"
-        }
-      ],
-      "type": "video/mp4"
-    },
-    {
-      "file": "assets/expanded/hanoi-program-success.jpg",
-      "origin_url": "https://robot-agent-exploration.com/assets/vid/hanoi/hanoi_s06.jpg",
-      "subject": "DexJoCo Tower of Hanoi",
-      "caption_en": "Episode 6: the first autonomous program runs succeed after earlier grasp revisions.",
-      "caveat": "Official project excerpt. Treat as accelerated or edited qualitative footage, not real-time performance or a success-rate estimate.",
-      "bytes": 13395,
-      "sha256": "845604521ca62bc1228eeb2d4855257a9b2bf035bf04864f93607e7ee2982646",
       "width": 640,
       "height": 360,
       "type": "image/jpeg"
@@ -173,70 +121,6 @@
       "caveat": "Official project excerpt. Treat as accelerated or edited qualitative footage, not real-time performance or a success-rate estimate.",
       "bytes": 36511,
       "sha256": "b33734abc041e901fa553c2b2872834570308c2fdda2bfa1c21722e1fb11f096",
-      "width": 640,
-      "height": 360,
-      "type": "image/jpeg"
-    },
-    {
-      "file": "assets/expanded/airfryer-early-failure.mp4",
-      "origin_url": "https://robot-agent-exploration.com/assets/vid/sess/airfry_03.mp4",
-      "subject": "Real Franka FR3 air fryer",
-      "caption_en": "An early controller run selects a flipped-elbow posture and hits a camera.",
-      "caveat": "Official project excerpt. Treat as accelerated or edited qualitative footage, not real-time performance or a success-rate estimate.",
-      "bytes": 72021,
-      "sha256": "e99c13e40a4458289cfe3270359442348298cc0a60a6cc81d2a2763115a07393",
-      "duration_seconds": 5.0,
-      "streams": [
-        {
-          "codec_name": "h264",
-          "codec_type": "video",
-          "width": 640,
-          "height": 360,
-          "r_frame_rate": "20/1"
-        }
-      ],
-      "type": "video/mp4"
-    },
-    {
-      "file": "assets/expanded/airfryer-early-failure.jpg",
-      "origin_url": "https://robot-agent-exploration.com/assets/vid/sess/airfry_03.jpg",
-      "subject": "Real Franka FR3 air fryer",
-      "caption_en": "An early controller run selects a flipped-elbow posture and hits a camera.",
-      "caveat": "Official project excerpt. Treat as accelerated or edited qualitative footage, not real-time performance or a success-rate estimate.",
-      "bytes": 16458,
-      "sha256": "726f56d3b36b00d07d1816a980b4d0f221b61d7ea51138ff26f9296fa1b9f0c0",
-      "width": 640,
-      "height": 360,
-      "type": "image/jpeg"
-    },
-    {
-      "file": "assets/expanded/airfryer-unattended.mp4",
-      "origin_url": "https://robot-agent-exploration.com/assets/vid/sess/airfry_05.mp4",
-      "subject": "Real Franka FR3 air fryer",
-      "caption_en": "Later program: open, place banana, close in 171 seconds without intervention.",
-      "caveat": "Official project excerpt. Treat as accelerated or edited qualitative footage, not real-time performance or a success-rate estimate.",
-      "bytes": 68763,
-      "sha256": "b21c2d1ac443110d80ddfb3c161c305d3a662dcc98815a7ae600da6b4733b509",
-      "duration_seconds": 5.0,
-      "streams": [
-        {
-          "codec_name": "h264",
-          "codec_type": "video",
-          "width": 640,
-          "height": 360,
-          "r_frame_rate": "15/1"
-        }
-      ],
-      "type": "video/mp4"
-    },
-    {
-      "file": "assets/expanded/airfryer-unattended.jpg",
-      "origin_url": "https://robot-agent-exploration.com/assets/vid/sess/airfry_05.jpg",
-      "subject": "Real Franka FR3 air fryer",
-      "caption_en": "Later program: open, place banana, close in 171 seconds without intervention.",
-      "caveat": "Official project excerpt. Treat as accelerated or edited qualitative footage, not real-time performance or a success-rate estimate.",
-      "bytes": 8957,
-      "sha256": "2e9f39e027417e54a2a266090f31cf79f66cb357270747e14929ae34128240a9",
       "width": 640,
       "height": 360,
       "type": "image/jpeg"
