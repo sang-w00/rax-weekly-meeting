@@ -8,7 +8,7 @@ An independent English research-paper presentation of RAX by Huang et al.
 The site includes paper figures and tables, short official demo excerpts, and
 the project’s interactive Method animation and 3D air-fryer model.
 
-Use the arrow keys or the on-screen navigation. `F` opens full screen, `N` shows
+Use the arrow keys or Space to navigate. `F` opens full screen, `N` shows
 speaker notes, and `O` opens the slide overview. Videos are muted; native playback
 controls are available.
 

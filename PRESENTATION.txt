@@ -38,7 +38,7 @@ The next slide step switches to the architecture figure.
 Interactive 3D model (slide 10): drag to orbit, scroll to zoom, adjust the drawer
 slider, and toggle the model layers. The next step shows the geometry estimators.
 These modules pause when hidden. After interacting inside a module, click the
-slide margin or use the bottom navigation buttons to continue the presentation.
+slide margin and use the arrow keys to continue the presentation.
 
 Short demo cuts retain the source video's timing and speed annotations.
 They are qualitative, often accelerated examples, not real-time execution
@@ -56,11 +56,10 @@ Escape                Close an enlarged figure or another overlay
 F                     Full screen
 N                     Speaker notes
 O                     Searchable slide overview
-T                     Start / pause timer
 B                     Black screen
 ?                     Keyboard shortcut reference
 
-In full screen, the toolbar appears when the pointer reaches the bottom edge.
+The presentation has no bottom toolbar; navigation uses the keyboard.
 Interactive modules and native video controls can capture keyboard focus;
 clicking the slide margin restores slide keyboard navigation.
 

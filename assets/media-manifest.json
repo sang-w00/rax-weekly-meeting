@@ -4,7 +4,7 @@
   "paper_url": "https://arxiv.org/abs/2610.22496",
   "paper_version": "v1",
   "rights_note": "Educational research presentation using authentic media from the authors' official project and official arXiv paper. Credit the authors and sources during the presentation. No rights beyond the original source licenses are claimed.",
-  "verification": "All 55 slides rendered without broken media or overflow. 32 integrated offline interaction checks passed, with no remote requests or runtime errors. Both official interactive modules validated independently.",
+  "verification": "All 55 slides rendered without broken media or overflow. 34 integrated offline interaction checks passed, with no remote requests or runtime errors. Both official interactive modules validated independently.",
   "assets": [
     {
       "file": "assets/expanded/hanoi-failed-pinch.mp4",
